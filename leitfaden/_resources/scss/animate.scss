@@ -1,0 +1,33 @@
+// Animate
+
+@mixin animation-style() {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    @include animation-style();
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    $delay: 0.5s;
+    &.fadeInDown {
+        animation-name: fadeInDown;
+        .headline {
+            -webkit-animation-delay: $delay;
+            animation-delay: $delay;
+        }
+        .subheadline {
+            -webkit-animation-delay: ($delay)*2;
+            animation-delay: ($delay)*2;
+        }
+    }
+}

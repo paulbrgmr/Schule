@@ -1,0 +1,110 @@
+//Based on spaces.less from the designmodo Flat-UI Kit - https://github.com/designmodo/Flat-UI/blob/master/less/spaces.less
+// Should be used to modify the default spacing between objects (not between nodes of * the same object)
+// p,m = padding,margin
+// a,t,r,b,l,h,v = all,top,right,bottom,left,horizontal,vertical
+// x,s,m,l,n = extra-small(@x),small(@s),medium(@m),large(@l),none(0)
+// New: Bootstrap 3 viewports added: *,-xs,-sm,-md,-lg = all, XS only, SM only, MD only, LG only
+
+//Assign variables for standalone use
+
+//@screen-xs-max: 767px;
+//
+//@screen-sm-min:768px;
+//@screen-sm-max:991px;
+//
+//@screen-md-min:992px;
+//@screen-md-max:1199px;
+//
+//@screen-lg-min:1200px;
+
+// Default space values
+@x: 3px;
+@s: 5px;
+@m: 10px;
+@l: 20px;
+
+// Spaces mixin including padding & margin
+.spaces-mixin(@pre,@space, @vp) {
+  .@{pre}tn@{vp}, .@{pre}vn@{vp}, .@{pre}an@{vp} {
+    @{space}-top: 0;
+  }
+  .@{pre}tx@{vp}, .@{pre}vx@{vp}, .@{pre}ax@{vp} {
+    @{space}-top: @x;
+  }
+  .@{pre}ts@{vp}, .@{pre}vs@{vp}, .@{pre}as@{vp} {
+    @{space}-top: @s;
+  }
+  .@{pre}tm@{vp}, .@{pre}vm@{vp}, .@{pre}am@{vp} {
+    @{space}-top: @m;
+  }
+  .@{pre}tl@{vp}, .@{pre}vl@{vp}, .@{pre}al@{vp} {
+    @{space}-top: @l;
+  }
+  .@{pre}rn@{vp}, .@{pre}hn@{vp}, .@{pre}an@{vp} {
+    @{space}-right: 0;
+  }
+  .@{pre}rx@{vp}, .@{pre}hx@{vp}, .@{pre}ax@{vp} {
+    @{space}-right: @x;
+  }
+  .@{pre}rs@{vp}, .@{pre}hs@{vp}, .@{pre}as@{vp} {
+    @{space}-right: @s;
+  }
+  .@{pre}rm@{vp}, .@{pre}hm@{vp}, .@{pre}am@{vp} {
+    @{space}-right: @m;
+  }
+  .@{pre}rl@{vp}, .@{pre}hl@{vp}, .@{pre}al@{vp} {
+    @{space}-right: @l;
+  }
+  .@{pre}bn@{vp}, .@{pre}vn@{vp}, .@{pre}an@{vp} {
+    @{space}-bottom: 0;
+  }
+  .@{pre}bx@{vp}, .@{pre}vx@{vp}, .@{pre}ax@{vp} {
+    @{space}-bottom: @x;
+  }
+  .@{pre}bs@{vp}, .@{pre}vs@{vp}, .@{pre}as@{vp} {
+    @{space}-bottom: @s;
+  }
+  .@{pre}bm@{vp}, .@{pre}vm@{vp}, .@{pre}am@{vp} {
+    @{space}-bottom: @m;
+  }
+  .@{pre}bl@{vp}, .@{pre}vl@{vp}, .@{pre}al@{vp} {
+    @{space}-bottom: @l;
+  }
+  .@{pre}ln@{vp}, .@{pre}hn@{vp}, .@{pre}an@{vp} {
+    @{space}-left: 0;
+  }
+  .@{pre}lx@{vp}, .@{pre}hx@{vp}, .@{pre}ax@{vp} {
+    @{space}-left: @x;
+  }
+  .@{pre}ls@{vp}, .@{pre}hs@{vp}, .@{pre}as@{vp} {
+    @{space}-left: @s;
+  }
+  .@{pre}lm@{vp}, .@{pre}hm@{vp}, .@{pre}am@{vp} {
+    @{space}-left: @m;
+  }
+  .@{pre}ll@{vp}, .@{pre}hl@{vp}, .@{pre}al@{vp} {
+    @{space}-left: @l;
+  }
+}
+
+
+// Generate the output
+.spaces-mixin(p,padding,~'');
+.spaces-mixin(m,margin,~'');
+
+@media (max-width: @screen-xs-max) {
+  .spaces-mixin(p,padding,-xs);
+  .spaces-mixin(m,margin,-xs);
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+  .spaces-mixin(p,padding,-sm);
+  .spaces-mixin(m,margin,-sm);
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max){
+  .spaces-mixin(p,padding,-sm);
+  .spaces-mixin(m,margin,-sm);
+}
+@media (min-width: @screen-lg-min){
+  .spaces-mixin(p,padding,-lg);
+  .spaces-mixin(m,margin,-lg);
+}

@@ -1,0 +1,69 @@
+.nav-animation {
+    margin-top: 2px;
+    &:not(.active) {
+        a {
+            height: 45px;
+            &:before, &:after {
+                position: absolute;
+                width: 45px;
+                height: 2px;
+                background: #fff;
+                content: '';
+                opacity: 0.2;
+                transition: all 0.3s;
+                pointer-events: none;    
+            }
+            &:before {
+                top: 12px;
+                left: 0;
+                transform: rotate(90deg);
+                transform-origin: 0 0;
+            }
+            &:after {
+                right: 0;
+                bottom: -8px;
+                transform: rotate(90deg);
+                transform-origin: 100% 0;
+            }
+            &:hover, &:focus {
+                &:before, &:after {
+                    opacity: 1;
+                }
+                &:before {
+                    left: 50%;
+                    transform: rotate(0deg) translateX(-50%);
+                }
+                &:after {
+                    right: 50%;
+                    transform: rotate(0deg) translateX(50%);
+                }
+            }
+        }
+    }
+    &.active {
+        a {
+            height: 45px;
+            &:before, &:after {
+                position: absolute;
+                width: 45px;
+                height: 2px;
+                background: #fff;
+                content: '';
+                opacity: 1;
+                pointer-events: none;    
+            }
+            &:before {
+                left: 50%;
+                transform: rotate(0deg) translateX(-50%);
+                top: 12px;
+                transform-origin: 0 0;
+            }
+            &:after {
+                right: 50%;
+                transform: rotate(0deg) translateX(50%);
+                bottom: -8px;
+                transform-origin: 100% 0;
+            }
+        }
+    }
+}

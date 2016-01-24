@@ -1,0 +1,116 @@
+@import "var", "nav-icon", "animate";
+
+* {
+    font-family: $font-family-sans-serif;
+}
+
+p {
+    &.text-large {
+        font-size: $font-size-large;
+    }
+}
+
+.navbar-bg {
+    background-color: $php-purple;
+    border-bottom: 3px solid $php-purple-dark;
+}
+
+nav {
+    .container {
+        @include padding-left-right(0);
+    }
+    .navbar {
+        &-header {
+            .navbar {
+                &-toggle {
+                    margin: 0;
+                    padding: 0;
+                }
+                &-brand {
+                    padding: $logo-center-vertical;
+                    padding-left: 0;
+                    padding-right: 0;
+                    img {
+                        height: 25px;
+                    }
+                }
+            }
+        }
+        &-collapse {
+            border: none;
+            box-shadow: none;
+            padding-left: 0;
+            ul.navbar {
+                &-nav {
+                    margin-top: 0;
+                    li {
+                        margin-left: 0px;
+                        margin-right: 20px;
+                        a {
+                            transition: .3s;
+                            &:hover {
+                                color: #fff;
+                                transition: .3s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        border: $navbar-default-border-width;
+    }
+}
+
+.content {
+    background-color: $body-bg;
+    min-height: $content-min-height;
+    &-index {
+        margin-top: 50px;
+        .intro {
+            display: table;
+            height: 70vh;
+            margin-left: auto;
+            margin-right: auto;
+            &-wrapper {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+                .headline {
+                    font-weight: 500;
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+    .info-wrapper {
+        background-color: #F1F1F1;
+        padding: 15px;
+        box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.15);
+        box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+        @include margin-top-bottom(25px);
+        .code-wrapper {
+            background-color: $body-bg;
+            border-left: inset 3px $brand-primary;
+            padding: 10px;
+            margin-bottom: 15px;
+            code {
+                background-color: transparent;
+                span {
+                    font-family: 'Andale Mono';
+                }
+            }
+        }
+    }
+}
+
+.btn {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    transition: .25s;
+    &, &:hover, &:active, &:focus {
+        background-color: $brand-primary;
+        border-color: $brand-primary
+    }
+}
+
+@import "responsive";
