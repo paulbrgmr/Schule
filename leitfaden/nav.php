@@ -15,10 +15,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
             <li class="nav-animation">
-                <a id="webapp" href="grundlagen.php">Grundlagen</a>
+                <a id="grundlagen" href="grundlagen.php">Grundlagen</a>
             </li>
             <li class="nav-animation">
-                <a id="Server" href="Server.php">Server</a>
+                <a id="server" href="server.php">Server</a>
             </li>
             <li class="nav-animation">
                 <a id="formular" href="formular.php">Formulare</a>
