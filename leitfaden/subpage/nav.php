@@ -6,7 +6,7 @@
             <?php include 'nav-icon.php'; ?>
         </button>
         <a class="navbar-brand" href="index.php">
-            <img src="_resources/img/logo-white.svg" alt="PHP Logo">
+            <img src="../_resources/img/logo.svg" alt="PHP Logo">
         </a>
     </div>
 
@@ -14,16 +14,16 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
             <li class="nav-animation">
-                <a id="webapp" href="webapp.php">Webanwendung</a>
+                <a id="webapp" href="../webapp.php">Webanwendung</a>
             </li>
             <li class="nav-animation">
-                <a id="webserver" href="webserver.php">Webserver</a>
+                <a id="webserver" href="../webserver.php">Webserver</a>
             </li>
             <li class="nav-animation">
-                <a id="formular" href="formular.php">Formulare</a>
+                <a id="formular" href="../formular.php">Formulare</a>
             </li>
             <li class="nav-animation">
-                <a id="sql" href="sql.php">SQL und MySQL</a>
+                <a id="sql" href="../sql.php">SQL und MySQL</a>
             </li>
         </ul>
     </div><!-- /.navbar-collapse -->

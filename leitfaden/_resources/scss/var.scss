@@ -7,16 +7,17 @@ $content-min-height: 720px;
 // Bootstrap Variables
 $brand-primary: $php-purple;
 $font-family-sans-serif: 'Fira Sans', sans-serif;
+$font-family-sans: 'Roboto Slab', serif;
 $body-bg: #fff;
 $navbar-height: 70px;
 $navbar-default-bg: transparent;
 $navbar-margin-bottom: 0;
 $navbar-default-border-width: none;
-$navbar-default-link-active-bg: $php-purple;
+$navbar-default-link-active-bg: transparent;
 $navbar-default-link-active-color: #fff;
 $navbar-default-link-color: darken($navbar-default-link-active-color, 10%);
 $navbar-default-link-hover-color: $navbar-default-link-color;
-$navbar-default-link-hover-bg: $php-purple;
+$navbar-default-link-hover-bg: transparent;
 $navbar-default-toggle-icon-bar-bg: $php-purple-dark;
 $navbar-default-toggle-border-color:  transparent;
 $navbar-default-toggle-hover-bg: transparent;
@@ -71,7 +72,7 @@ $logo-center-vertical: $navbar-padding-vertical;
     margin-right: $margin-left-right;
 }
 
-@mixin margin-left-right($margin-left, $margin-right) {
+@mixin margin-left--right($margin-left, $margin-right) {
     margin-left: $margin-left;
     margin-right: $margin-right;
 }
