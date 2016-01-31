@@ -13,6 +13,39 @@ html {
     // margin-bottom: 3.125rem;
 }
 
+main {
+    // Link Styles by Kevin Gimbel http://kevingimbel.com/
+    a {
+        text-decoration: none;
+        color: #01579B;
+        z-index: 2;
+        text-shadow: .05em 0 0 #fff, -.05em -0 0 #fff,
+        .15em 0 0 #fff,-0.15em -0 0 #fff,
+        .2em 0 0 #fff,-.2em -0 0 #fff;
+        position: relative;
+        &:after {
+            content: '';
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 3px;
+            transform: scaleX(0);
+            transition: linear .15s;
+            background: currentColor;
+            z-index: -1;
+        }
+        &:hover {
+            text-decoration: none;
+            &:after {
+               transform: scaleX(1);
+            }
+        }
+    }
+}
+
+
 p {
     &.text-large {
         font-size: $font-size-large;
@@ -141,7 +174,7 @@ nav {
 .overview {
     @include margin-top-bottom(100px);
     &-panel {
-        margin-top: 50px;
+        margin-top: 100px;
     }
     h3 {
         margin-top: 0;
