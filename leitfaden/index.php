@@ -104,6 +104,9 @@
         </div>
     </div> -->
 </div>
+<footer>
+    <p class="text-center">Mit <i class="fa fa-heart"></i> von Paul und Lara</p> 
+</footer>
 
 <?php
     include 'footer.php';
