@@ -9,8 +9,8 @@ $(function() {
     //     console.log($(this).addClass('navitem-'+ index));
     // });
 
-    var navID = ['#webapp', '#webserver', '#formular', '#sql'];
-    var navURL = ['webapp.php', 'webserver.php', 'formular.php', 'sql.php'];
+    var navID = ['#grundlagen', '#webserver', '#formular', '#sql'];
+    var navURL = ['grundlagen.php', 'webserver.php', 'formular.php', 'sql.php'];
 
     var ajaxLoad = false;
     if (ajaxLoad) {

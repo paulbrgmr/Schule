@@ -29,49 +29,53 @@
 </div>
 <div class="container overview">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-md-3">
                         <img src="_resources/img/document.svg" class="img-responsive">
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-md-9">
                         <h3>Grundlagen</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <a href="grundlagen.php" title="Grundlagen - mehr erfahren">mehr erfahren</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-md-3">
                         <img src="_resources/img/server.svg" class="img-responsive">
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-md-9">
                         <h3>Server</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <a href="server.php" title="Server - mehr erfahren">mehr erfahren</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 overview-panel">
+            <div class="col-md-6 overview-panel">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-md-3">
                         <img src="_resources/img/formular.svg" class="img-responsive">
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-md-9">
                         <h3>Formulare</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <a href="formular.php" title="Formulare - mehr erfahren">mehr erfahren</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 overview-panel">
+            <div class="col-md-6 overview-panel">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-md-3">
                         <img src="_resources/img/sql.svg" class="img-responsive">
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-md-9">
                         <h3>SQL</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <a href="sql.php" title="SQL - mehr erfahren">mehr erfahren</a>
                     </div>
                 </div>
             </div>
