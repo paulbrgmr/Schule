@@ -19,16 +19,6 @@
         <div class="col-md-12">
             <p><a href="http://www.edv-lehrgang.de/serverseitige-clientseitige-programmierung/" target="_blank">Weitere Informationen zur Clientseitigen / Serverseitigen Programmierung</a></p>
         </div>
-        <div class="col-md-12">
-            <h3>Webserver - Ein System, das Websites bereitstellt</h3>
-            <p>Ein Webserver ist ein Server, der Dokumente an Clients wie z. B. Webbrowser überträgt. 
-                Als Webserver bezeichnet man den Computer mit Webserver-Software oder nur die Webserver-Software selbst.</p>
-            <p>Typische Webserver-Software ist der Apache Webserver, Nginx oder Abyss.
-                Beim Apache Webserver handelt es sich um den wohl bekanntesten Vertreter seiner Art.</p>
-            <p>Relativ neuer und erfolgreicher Mitbewerber ist Nginx. Der Grund für den Erfolg liegt darin, dass Nginx bei hoher Last schneller als Apache ist und insbesondere deutlich weniger Speicher verbraucht.
-            Zudem gilt es als äußerst robust und überzeugt durch zahlreiche Features und hohe Flexibilität.</p>
-            <p><a href="http://www.zdnet.de/41559930/mehr-leistung-im-www-nginx-statt-apache-nutzen/" target="_blank">Weitere Details zu Nginx statt Apache</a></p>
-        </div>
         <div class="col-xs-12">
             <h3>HTML als zustandsloses Netzwerkprotokoll</h3>
             <p>HTTP ist ein zustandsloses Protokoll. Informationen aus früheren Anforderungen gehen, sobald eine neue Anforderung durchgeführt wurde, verloren.</p>
