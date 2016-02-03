@@ -27,12 +27,72 @@
             </ul>
             <p>Durch die Bereitstellung von Apache und MySQL ist es mit beiden Programmen sehr einfach, lokal einen vollwertigen Webserver zu betreiben.</p>
             <h3>XAMPP</h3>
-            <p>Ein Webserver wird in XAMPP über den Reiter "Manage Servers" gestartet werden.</p>
-            <img src="_resources/img/xampp-server.png" height="472" width="670" class="img-responsive">
-            <p>Im Alltagsgebrauch kann auf "Start all" geklickt werden und es muss nichts weiter konfiguriert werden.</p>
-            <p>Für einen schnellen Zugriff auf den Hauptordner kann auf "Open Applications Folder" geklickt werden und dann der Ordner "htdocs" ausgewählt werden.
+            <p>Ein Webserver wird in XAMPP über den Reiter "<code>Manage Servers</code>" gestartet werden.</p>
+            <div class="row">
+                <div class="col-lg-5">
+                    <a href="_resources/img/xampp-server.png" data-lightbox="image-1" data-title="Manage Servers">
+                        <img src="_resources/img/xampp-server.png" height="472" width="670" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <p>Im Alltagsgebrauch kann auf "<code>Start all</code>" geklickt werden und es muss nichts weiter konfiguriert werden.</p>
+            <p>Für einen schnellen Zugriff auf den Hauptordner kann auf "<code>Open Applications Folder</code>" geklickt werden und dann der Ordner "<code>htdocs</code>" ausgewählt werden.
             Alle Dateien, die sich in diesem Ordner befinden, können im Browser unter <a href="http://localhost/" target="_blank">localhost</a> abgerufen werden.</p>
-            <img src="_resources/img/xampp-start.png" height="472" width="670" class="img-responsive">
+            <div class="row">
+                <div class="col-lg-5">
+                    <a href="_resources/img/xampp-start.png" data-lightbox="image-2" data-title="Start XAMPP">
+                        <img src="_resources/img/xampp-start.png" height="472" width="670" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <h2 class="text-center">PHP</h2>
+            <p>PHP ist eine Skriptsprache, die hauptsächlich zur Erstellung dynamischer Webseiten oder Webanwendungen verwendet wird.</p>
+            <div class="wrapper-info">
+                <p>Damit PHP auf auf dem Server ausgeführt werden kann muss die entsprechende Datei mit <code>.php</code> enden.</p>
+                <p>PHP wird in dieser Datei wird wie folgt gestartet:</p>
+                <div class="wrapper-code">
+                    <?php 
+                        highlight_string('<?php');
+                    ?>
+                </div>
+                <p>Durch ein <code>echo</code> kann unformatierter Text ausgegeben werden:</p>
+                <div class="wrapper-code">
+                    <?php 
+                        highlight_string('echo "Ich bin ein Beispieltext.";');
+                    ?>
+                </div>
+                <p>Um den PHP Code zu schließen schreibt man folgendes:</p>
+                <div class="wrapper-code">
+                    <?php 
+                        highlight_string('?>');
+                    ?>
+                </div>
+                <p>Zusammengesetzt sieht der funktionierende Code so aus:</p>
+                <div class="wrapper-code">
+                    <?php 
+                        highlight_string('<?php echo "Ich bin ein Beispieltext."; ?>');
+                    ?>
+                </div>
+                <p>Und gibt folgendes aus:</p>
+                <div class="wrapper-code">
+                    <?php 
+                        echo "Ich bin ein Beispieltext.";
+                    ?>
+                </div>
+            </div>
+            <p>Das wären ein Einstieg. Um diesen Einstieg mit anderen Grundlagen zu erweitern können z.B. Variablen verwendet werden.</p>
+            <div class="wrapper-info">
+                <p>Eine Variable wird durch <code>var $[text]</code> definiert.</p>
+                <p>Im PHP sieht das dann so aus:</p>
+                <div class="wrapper-code">
+                    <?php 
+                        echo "var $" . "myVariable = 'abc';";
+                    ?>
+                </div>
+                <p>Wird nun an einer anderen Stelle im PHP Code die Variable <code>$myVariable</code> aufgerufen, so wird 
+                <code>abc</code> ausgegeben.</p>
+            </div>
 
 
 

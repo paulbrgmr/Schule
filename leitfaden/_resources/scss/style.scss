@@ -178,6 +178,16 @@ nav {
             }
         }
     }
+    & + p {
+        margin-top: 35px;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.row + p {
+    margin-top: 15px;
 }
 
 .overview {
