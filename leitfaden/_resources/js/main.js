@@ -72,6 +72,8 @@ $(function() {
         }
     }
 
+    lightbox.option();
+
     $.bigfoot();
 
 });
