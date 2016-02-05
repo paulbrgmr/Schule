@@ -83,11 +83,11 @@
             </div>
             <p>Das wären ein Einstieg. Um diesen Einstieg mit anderen Grundlagen zu erweitern können z.B. Variablen verwendet werden.</p>
             <div class="wrapper-info">
-                <p>Eine Variable wird durch <code>var $[text]</code> definiert.</p>
+                <p>Eine Variable wird durch <code>$[text]</code> definiert.</p>
                 <p>Im PHP sieht das dann so aus:</p>
                 <div class="wrapper-code">
                     <?php 
-                        echo "var $" . "myVariable = 'abc';";
+                        echo "$" . "myVariable = 'abc';";
                     ?>
                 </div>
                 <p>Wird nun an einer anderen Stelle im PHP Code die Variable <code>$myVariable</code> aufgerufen, so wird 
