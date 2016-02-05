@@ -74,6 +74,13 @@
         <p>Ziel ist, dass auf das <code>label</code> geklickt werden kann und das <code>input</code> wird ausgewählt.</p>
         <p>Mit <code>placeholder="Vorname"</code> setzt man den Platzhalter, der ausgeblendet wird, sobald das <code>input</code> aktiv ist.</p>
     </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <a href="post-get/get-content.php" class="btn btn-primary btn-block" target="_blank">
+                Formular ausprobieren
+            </a>
+        </div>
+    </div>
 </div>
 
 <?php
