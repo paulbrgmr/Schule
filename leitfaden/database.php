@@ -22,7 +22,7 @@ else {
 }
 
 // Select data
-$sql = "SELECT `Username`, `Password`, `UserID` FROM `post-content` WHERE 1";
+$sql = "SELECT * FROM `post-content` WHERE 1";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
