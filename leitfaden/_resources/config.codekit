@@ -1351,6 +1351,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/font-awesome.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/font-awesome.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/style.min.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1389,6 +1398,28 @@
 		"initialSize": 1.27314e+06,
 		"inputAbbreviatedPath": "\/img\/macbook-mockup.png",
 		"outputAbbreviatedPath": "\/img\/macbook-mockup.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/xampp-server.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42103,
+		"inputAbbreviatedPath": "\/img\/xampp-server.png",
+		"outputAbbreviatedPath": "\/img\/xampp-server.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/xampp-start.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96292,
+		"inputAbbreviatedPath": "\/img\/xampp-start.png",
+		"outputAbbreviatedPath": "\/img\/xampp-start.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1437,6 +1468,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/lightbox.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/lightbox.min.js",
+		"outputAbbreviatedPath": "\/js\/lightbox.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1444,9 +1486,9 @@
 		"inputAbbreviatedPath": "\/js\/main.js",
 		"outputAbbreviatedPath": "\/js\/main.min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/js\/main.min.js": {
 		"fileType": 64,
@@ -1506,6 +1548,22 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
+		},
+	"\/scss\/lightbox.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/lightbox.scss",
+		"outputAbbreviatedPath": "\/css\/lightbox.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/scss\/nav-animation.scss": {
 		"createSourceMap": 0,
@@ -1572,8 +1630,8 @@
 		"useLibsass": 0
 		},
 	"\/scss\/style.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
@@ -1581,11 +1639,11 @@
 		"inputAbbreviatedPath": "\/scss\/style.scss",
 		"outputAbbreviatedPath": "\/css\/style.min.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 1
+		"useLibsass": 0
 		},
 	"\/scss\/var.scss": {
 		"createSourceMap": 0,
@@ -1593,7 +1651,7 @@
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/var.scss",
 		"outputAbbreviatedPath": "\/css\/var.min.css",
 		"outputPathIsOutsideProject": 0,
