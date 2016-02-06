@@ -1,9 +1,12 @@
 <?php 
     include 'content.php';
 ?>
-
-<div class="content-formular">
-    <h1 class="text-center">Formular</h1>
+</div>
+<div class="formular-bg-img">
+    <h1 class="text-center bg-headline">Formular</h1>
+</div>
+<div class="container">
+    <div class="content-formular">
     <p>Die wohl bekannteste und einfachste Übung in und mit PHP ist es, ein Formular zu erstellen.</p>
     <p>Es gibt zwei Arten von Formularen:</p>
     <div class="row">
@@ -81,6 +84,7 @@
             </a>
         </div>
     </div>
+</div>
 </div>
 
 <?php
