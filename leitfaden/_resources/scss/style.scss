@@ -193,6 +193,19 @@ nav {
     margin-top: 15px;
 }
 
+.formular-bg-img {
+    background-image: url('../img/formular-bg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+    margin: -4px;
+    h1 {
+        @include margin-top-bottom(0);
+        @include padding-top-bottom(75px);
+        color: #fff;
+    }
+}
+
 .overview {
     @include margin-top-bottom(100px);
     &-panel {
