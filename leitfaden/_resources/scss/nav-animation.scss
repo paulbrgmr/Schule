@@ -1,3 +1,5 @@
+$top-distance: 12px;
+
 .nav-animation {
     margin-top: 2px;
     &:not(.active) {
@@ -14,14 +16,16 @@
                 pointer-events: none;    
             }
             &:before {
-                top: 12px;
+                top: $top-distance - 2px;
+                // top: -2px; // reset to top
                 left: 0;
                 transform: rotate(90deg);
                 transform-origin: 0 0;
             }
             &:after {
                 right: 0;
-                bottom: -8px;
+                bottom: -$top-distance;
+                // bottom: 0px; // reset to top
                 transform: rotate(90deg);
                 transform-origin: 100% 0;
             }
@@ -55,13 +59,15 @@
             &:before {
                 left: 50%;
                 transform: rotate(0deg) translateX(-50%);
-                top: 12px;
+                // top: 12px;
+                top: $top-distance - 2px;
                 transform-origin: 0 0;
             }
             &:after {
                 right: 50%;
                 transform: rotate(0deg) translateX(50%);
-                bottom: -8px;
+                // bottom: -8px;
+                bottom: -$top-distance;
                 transform-origin: 100% 0;
             }
         }
