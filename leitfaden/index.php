@@ -20,7 +20,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-offset-1 col-lg-6">
-                        <img src="_resources/img/macbook-mockup-2.png" class="img-responsive">
+                        <img src="_resources/img/macbook-mockup.png" class="img-responsive">
                     </div>
                 </div>
             </div>
