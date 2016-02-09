@@ -2,8 +2,11 @@
     include 'content.php';
 ?>
 </div>
-<div class="formular-bg-img">
-    <h1 class="text-center bg-headline">Formular</h1>
+<div class="bg-wrapper">
+    <div class="formular-bg-img bg-img">
+            <h1 class="text-center bg-headline">Formular</h1>
+        </div>
+    </div>
 </div>
 <div class="container">
     <div class="content-formular">

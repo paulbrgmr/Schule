@@ -15,7 +15,6 @@ html {
 
 main {
     min-height: 1000px;
-    margin-bottom: 50px;
     // Link Styles by Kevin Gimbel http://kevingimbel.com/
     a {
         &:not(.btn) {
@@ -193,16 +192,41 @@ nav {
     margin-top: 15px;
 }
 
-.formular-bg-img {
-    background-image: url('../img/formular-bg.jpg');
+.bg-wrapper {
+    padding: 4px;
+}
+
+.bg-img {
     background-size: cover;
-    background-position: center bottom;
     overflow: hidden;
     margin: -4px;
     h1 {
         @include margin-top-bottom(0);
         @include padding-top-bottom(75px);
         color: #fff;
+    }    
+}
+
+.formular-bg-img {
+    background-image: url('../img/formular-bg.jpg');
+    background-position: center -185px;
+}
+
+.server-bg-img {
+    background-image: url('../img/server-bg.jpg');
+    background-position: center -200px;
+}
+
+.sql-bg-img {
+    // background-image: url('../img/sql.png');
+    background-size: cover;
+    background-position: center -200px;
+    overflow: hidden;
+    margin: -4px;
+    h1 {
+        @include margin-top-bottom(0);
+        @include padding-top-bottom(75px);
+        color: #000;
     }
 }
 
@@ -217,6 +241,10 @@ nav {
     h3 {
         margin-top: 0;
     }
+}
+
+.content-formular {
+    margin-top: 50px;
 }
 
 .content-formular-form {

@@ -1,9 +1,13 @@
 <?php 
     include 'content.php';
 ?>
-
-<div class="content-webserver">
-    <h1 class="text-center">Webserver</h1>
+</div>
+<div class="bg-wrapper">
+    <div class="server-bg-img bg-img">
+        <h1 class="text-center bg-headline">Webserver</h1>
+    </div>
+</div>
+<div class="container content-webserver">
     <h3>Webserver - Ein System, das Websites bereitstellt</h3>
             <p>Ein Webserver ist ein Server, der Dokumente an Clients wie z. B. Webbrowser überträgt. 
                 Als Webserver bezeichnet man den Computer mit Webserver-Software oder nur die Webserver-Software selbst.</p>
