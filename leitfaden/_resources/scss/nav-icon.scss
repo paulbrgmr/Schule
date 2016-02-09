@@ -34,8 +34,8 @@ $scale-x: .45;
     height: 68px;
     width: 68px;
     // two masks because... browser support.
-    mask: url(#mask);
-    -webkit-mask-box-image: url(https://raygun.io/upload/mask.svg);
+    mask: url(../img/mask.svg);
+    -webkit-mask-box-image: url(../img/mask.svg);
 }
 
 .animate-path {
