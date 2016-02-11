@@ -1,46 +1,247 @@
 @media (min-width: $screen-sm-min) {
     nav {
-        .container {
-            padding-left: 15px;
-            padding-right: 15px;
+        .navbar {
+            border: $navbar-default-border-width;
+            &-header {
+                .navbar {
+                    &-brand {
+                        @include padding-left-right(15px);
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .content {
+            &-index {
+                .intro-wrapper {
+                    @include margin-top-bottom(50px);
+                    .headline {
+                        font-weight: 500;
+                        font-size: 28px;
+                    }
+                }
+                .start-wrapper {
+                    .img-wrapper {
+                        @include margin-top-bottom(70px);
+                    }
+                    .intro {
+                        &-wrapper {
+                            color: #f5f5f5;
+                            p {
+                                font-weight: 300;
+                                &.text-large {
+                                    font-size: 1.125em;
+                                    margin-bottom: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .overview {
+        @include margin-top-bottom(30px);
+        p {
+            margin-bottom: 5px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        .overview-img {
+            @include margin-top-bottom(50px);
+        }
+        .overview-text {
+            @include margin-top-bottom(60px);
         }
     }
 }
 
 @media (min-width: $screen-md-min) {
     @import "nav-animation";
-    .btn {
-        padding-top: 13px;
-        padding-bottom: 13px;
-        transition: .25s;
-        &:hover {
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            box-shadow: 0px 6px 20px 0px rgba(0,0,0,0.2);
-            background-color: $brand-primary;
-            transition: .25s;
-        }
-    }
+    
     nav {
         .navbar {
+            border: $navbar-default-border-width;
             &-header {
                 .navbar {
-                    &-toggle {
-                    }
                     &-brand {
-                        img {
-                        }
+                        @include padding-left-right(15px);
                     }
                 }
             }
             &-collapse {
-                ul.navbar-nav {
-                    margin-left: 50px;
-                    li {
-                        margin-left: 20px;
-                        margin-right: 20px;
+                ul.navbar {
+                    &-nav {
+                        margin-left: 75px;
+                        li {
+                            a {
+                                &:hover {
+                                }
+                            }
+                        }
                     }
                 }
             }
+        }
+    }
+
+    main {
+        .content {
+            &-index {
+                .intro-wrapper {
+                    @include margin-top-bottom(50px);
+                    .headline {
+                        font-weight: 500;
+                        font-size: 2rem;
+                    }
+                }
+                .start-wrapper {
+                    .img-wrapper {
+                        @include margin-top-bottom(70px);
+                    }
+                    .intro {
+                        &-wrapper {
+                            color: #f5f5f5;
+                            @include margin-top-bottom(80px);
+                            p {
+                                font-weight: 300;
+                                &.text-large {
+                                    font-size: 1.25em;
+                                    margin-bottom: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        min-height: 1000px;
+        // Link Styles by Kevin Gimbel http://kevingimbel.com/
+        a {
+            &:not(.btn) {
+                &:after {
+                    transform: scaleX(0);
+                }
+                &:hover {
+                    &:after {
+                       transform: scaleX(1);
+                    }
+                }
+                &, &:hover, &:focus, &:active {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .overview {
+        @include margin-top-bottom(30px);
+        p {
+            margin-bottom: 5px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        .overview-img {
+            @include margin-top-bottom(85px);
+        }
+        .overview-text {
+            @include margin-top-bottom(60px);
+        }
+    }
+}
+
+@media (min-width: $screen-lg-min) {
+    nav {
+        .navbar {
+            border: $navbar-default-border-width;
+            &-header {
+                .navbar {
+                    &-brand {
+                        @include padding-left-right(15px);
+                    }
+                }
+            }
+            &-collapse {
+                ul.navbar {
+                    &-nav {
+                        margin-left: 75px;
+                        li {
+                            a {
+                                &:hover {
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .content {
+            &-index {
+                .intro-wrapper {
+                    @include margin-top-bottom(50px);
+                    .headline {
+                        font-weight: 500;
+                        font-size: 2rem;
+                    }
+                }
+                .start-wrapper {
+                    .img-wrapper {
+                        @include margin-top-bottom(70px);
+                    }
+                    .intro {
+                        &-wrapper {
+                            color: #f5f5f5;
+                            @include margin-top-bottom(110px);
+                            p {
+                                font-weight: 300;
+                                &.text-large {
+                                    font-size: 1.25em;
+                                    margin-bottom: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        min-height: 1000px;
+        // Link Styles by Kevin Gimbel http://kevingimbel.com/
+        a {
+            &:not(.btn) {
+                &:after {
+                    transform: scaleX(0);
+                }
+                &:hover {
+                    &:after {
+                       transform: scaleX(1);
+                    }
+                }
+                &, &:hover, &:focus, &:active {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .overview {
+        @include margin-top-bottom(30px);
+        p {
+            margin-bottom: 5px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        .overview-img {
+            @include margin-top-bottom(75px);
+        }
+        .overview-text {
+            @include margin-top-bottom(60px);
         }
     }
 }
