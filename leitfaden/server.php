@@ -52,44 +52,44 @@
             <hr>
             <h2 class="text-center">PHP</h2>
             <p>PHP ist eine Skriptsprache, die hauptsächlich zur Erstellung dynamischer Webseiten oder Webanwendungen verwendet wird.</p>
-            <div class="wrapper-info">
+            <div class="info-wrapper">
                 <p>Damit PHP auf auf dem Server ausgeführt werden kann muss die entsprechende Datei mit <code>.php</code> enden.</p>
                 <p>PHP wird in dieser Datei wird wie folgt gestartet:</p>
-                <div class="wrapper-code">
+                <div class="code-wrapper">
                     <?php 
                         highlight_string('<?php');
                     ?>
                 </div>
                 <p>Durch ein <code>echo</code> kann unformatierter Text ausgegeben werden:</p>
-                <div class="wrapper-code">
+                <div class="code-wrapper">
                     <?php 
                         highlight_string('echo "Ich bin ein Beispieltext.";');
                     ?>
                 </div>
                 <p>Um den PHP Code zu schließen schreibt man folgendes:</p>
-                <div class="wrapper-code">
+                <div class="code-wrapper">
                     <?php 
                         highlight_string('?>');
                     ?>
                 </div>
                 <p>Zusammengesetzt sieht der funktionierende Code so aus:</p>
-                <div class="wrapper-code">
+                <div class="code-wrapper">
                     <?php 
                         highlight_string('<?php echo "Ich bin ein Beispieltext."; ?>');
                     ?>
                 </div>
                 <p>Und gibt folgendes aus:</p>
-                <div class="wrapper-code">
+                <div class="code-wrapper">
                     <?php 
                         echo "Ich bin ein Beispieltext.";
                     ?>
                 </div>
             </div>
             <p>Das wären ein Einstieg. Um diesen Einstieg mit anderen Grundlagen zu erweitern können z.B. Variablen verwendet werden.</p>
-            <div class="wrapper-info">
+            <div class="info-wrapper">
                 <p>Eine Variable wird durch <code>$[text]</code> definiert.</p>
                 <p>Im PHP sieht das dann so aus:</p>
-                <div class="wrapper-code">
+                <div class="code-wrapper">
                     <?php 
                         echo "$" . "myVariable = 'abc';";
                     ?>

@@ -76,4 +76,18 @@ $(function() {
 
     $.bigfoot();
 
+    // $('form#form-get').on('submit', function (e) {
+    //     e.preventDefault(); //prevent to reload the page
+
+    //     $.ajax({
+    //         type: 'GET', //hide url
+    //         url: '../../form/post-get.php', //your form validation url
+    //         data: $('form#form-get').serialize(),
+    //         success: function () {
+    //             alert('The form was submitted successfully'); //display an alert whether the form is submitted okay
+    //         }
+    //     });
+
+    // });
+
 });

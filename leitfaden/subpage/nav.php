@@ -3,6 +3,7 @@
     <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
+            <!-- <span>Menü</span> -->
             <?php include 'nav-icon.php'; ?>
         </button>
         <a class="navbar-brand" href="index.php">
@@ -14,16 +15,16 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
             <li class="nav-animation">
-                <a id="webapp" href="../webapp.php">Webanwendung</a>
+                <a id="grundlagen" href="../grundlagen.php">Grundlagen</a>
             </li>
             <li class="nav-animation">
-                <a id="webserver" href="../webserver.php">Webserver</a>
+                <a id="server" href="../server.php">Server</a>
             </li>
             <li class="nav-animation">
                 <a id="formular" href="../formular.php">Formulare</a>
             </li>
             <li class="nav-animation">
-                <a id="sql" href="../sql.php">SQL und MySQL</a>
+                <a id="sql" href="../sql.php">SQL</a>
             </li>
         </ul>
     </div><!-- /.navbar-collapse -->

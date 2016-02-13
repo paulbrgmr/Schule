@@ -19,7 +19,7 @@
                     @include margin-top-bottom(50px);
                     .headline {
                         font-weight: 500;
-                        font-size: 28px;
+                        font-size: 1.75rem;
                     }
                 }
                 .start-wrapper {
@@ -120,7 +120,6 @@
             }
         }
         min-height: 1000px;
-        // Link Styles by Kevin Gimbel http://kevingimbel.com/
         a {
             &:not(.btn) {
                 &:after {
@@ -188,7 +187,7 @@
                     @include margin-top-bottom(50px);
                     .headline {
                         font-weight: 500;
-                        font-size: 2rem;
+                        font-size: 2.5rem;
                     }
                 }
                 .start-wrapper {

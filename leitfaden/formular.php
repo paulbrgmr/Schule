@@ -37,14 +37,14 @@
     </div>
     <h3>Grundaufbau eines Formulars</h3>
     <p>Alle Daten, die in einem Formular eingegeben werden, werden im HTML in einen <code>form</code>-Tag eingetragen.</p>
-    <form action="testfile.php" method="POST">
+    <form action="" method="POST">
         <input type="text">
         <input type="submit">
         <input type="reset">
     </form>
-    <div class="wrapper-info">
+    <div class="info-wrapper">
         <p>Die grundlegende Struktur eines Formulars:</p>
-        <div class="wrapper-code">
+        <div class="code-wrapper">
             <?php 
                 highlight_string(
 '<form action="testfile.php" method="POST">
@@ -61,28 +61,25 @@
         <p><code>&lt;input type="submit"&gt;</code> bzw. <code>&lt;input type="reset"&gt;</code> 
         ermöglichen das Abschicken bzw. das Zurücksetzen des Formulars. Der Text in diesen Buttons kann durch <code>value=""</code> verändert werden.</p>
     </div>
-    <label for="Vorname">Vorname:
-        <input id="Vorname" type="text" placeholder="Vorname" name="Vorname">
-    </label>
-    <div class="wrapper-info">
+    <label for="Vorname">Vorname:</label>
+    <input id="Vorname" type="text" placeholder="Vorname" name="Vorname">
+    <div class="info-wrapper">
         <p>Um ein <code>input</code> korrekt, für Sehschwache und benutzerfreundlich zu schreiben, wird ein <code>label</code> empfohlen.</p>
-        <p>Der <code>label</code>-Tag umschließt den <code>input</code>-Tag.</p>
-        <div class="wrapper-code">
+        <div class="code-wrapper">
             <?php 
                 highlight_string(
-'<label for="Vorname">Vorname:
-    <input id="Vorname" type="text" placeholder="Vorname" name="Vorname">
-</label>');
+'<label for="Vorname">Vorname:</label>
+<input id="Vorname" type="text" placeholder="Vorname" name="Vorname">');
             ?>
         </div>
-        <p>Um den gewünschten Effekt zu erreichen müssen <code>label</code> und <code>input</code> miteinander verknüpgt werden.</p>
+        <p>Um den gewünschten Effekt zu erreichen müssen <code>label</code> und <code>input</code> miteinander verknüpft werden.</p>
         <p>Das geschieht mit einem <code>for="Vorname"</code> im <code>label</code> und einem <code>id="Vorname"</code> im <code>input</code></p>
         <p>Ziel ist, dass auf das <code>label</code> geklickt werden kann und das <code>input</code> wird ausgewählt.</p>
-        <p>Mit <code>placeholder="Vorname"</code> setzt man den Platzhalter, der ausgeblendet wird, sobald das <code>input</code> aktiv ist.</p>
+        <p>Mit <code>placeholder="Vorname"</code> setzt man den Platzhalter, der ausgeblendet wird, sobald in das <code>input</code> geschrieben wird.</p>
     </div>
     <div class="row">
         <div class="col-lg-3">
-            <a href="post-get/get-content.php" class="btn btn-primary btn-block" target="_blank">
+            <a href="form/post-get.php" class="btn btn-primary btn-block" target="_blank">
                 Formular ausprobieren
             </a>
         </div>
