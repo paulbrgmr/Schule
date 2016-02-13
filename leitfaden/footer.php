@@ -1,6 +1,6 @@
         </div>
         </main>
-        <footer>
+        <footer class="index">
             <script src="_resources/js/jquery.min.js"></script>
             <script src="_resources/js/bootstrap.min.js"></script>
             <script src="_resources/js/bigfoot.min.js"></script>

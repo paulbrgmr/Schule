@@ -238,8 +238,18 @@ main {
     }
 }
 
-footer {
+.footer-index {
     background-color: $gray-lighter;
+    p {
+        margin-bottom: 0;
+        @include padding-top-bottom(15px);
+        .fa-heart {
+            color: #f00;
+        }
+    }
+}
+
+footer {
     margin-top: 50px;
     p {
         margin-bottom: 0;
@@ -247,6 +257,9 @@ footer {
         .fa-heart {
             color: #f00;
         }
+    }
+    &.index {
+        margin-top: 0;
     }
 }
 

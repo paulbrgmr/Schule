@@ -114,9 +114,9 @@
         </div>
     </div> -->
 </div>
-<footer>
+<div class="footer-index">
     <p class="text-center">Mit <i class="fa fa-heart"></i> von Paul und Lara</p> 
-</footer>
+</div>
 
 <?php
     include 'footer.php';
