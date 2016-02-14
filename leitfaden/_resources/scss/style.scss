@@ -1,10 +1,13 @@
-@import "var", "nav-icon", "bigfoot", "lightbox";
+@import "var", "nav-icon", "bigfoot", "lightbox", "checkbox";
 
 * {
     font-family: $font-family-sans-serif;
     &:after {
         content: '';
         clear: both;
+    }
+    &:focus {
+        outline: 0 !important;
     }
 }
 
@@ -225,6 +228,10 @@ main {
     }
 }
 
+p {
+  margin: 0 0 ($line-height-computed / 3.5);
+}
+
 .content-formular {
     margin-top: 50px;
 }
@@ -258,8 +265,12 @@ footer {
             color: #f00;
         }
     }
-    &.index {
-        margin-top: 0;
+    .footer-index {
+        @include padding-left-right(15px);
+        @include margin-left-right(0);
+        .footer-github {
+            text-align: center;
+        }
     }
 }
 

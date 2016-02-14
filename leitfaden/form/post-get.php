@@ -39,10 +39,9 @@
             <p>In dieser Beispiel werden die Daten per <code>GET</code> abgeschickt. Die Eingaben, die in die Eingabefelder eingetragen werden, sind nach dem abschicken in der URL sichtbar. Eine genaue Zuordnung ist möglich, sowohl der Feldname als auch der Feldinhalt im Klartext zu lesen sind.</p>
             <p>Aktuelle URL-Endung:
                 <?php
-                            $path_parts = pathinfo("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
-
-                            echo $path_parts['basename'], "\n <br>";
-                        ?>
+                    $path_parts = pathinfo("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+                    echo '<code>' . $path_parts['basename'] . '</code>';
+                ?>
             </p>
         </div>
         <div class="col-xs-12 col-md-6">
@@ -63,9 +62,6 @@
                                 </button>
                             </div>
                             <div class="col-xs-6">
-                                <!-- <button class="btn btn-primary btn-block" type="reset">
-                                    Reset
-                                </button> -->
                                 <a href="post-get.php" class="btn btn-primary btn-block">
                                     Reset
                                 </a>
@@ -73,14 +69,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-offset-2 col-xs-8">
-                        <?=$_POST['post-password']?>
-                        <?=$_POST['post-username']?>
-                    </div>
-                </div>
             </form>
             <p>In diesem Beispiel werden die Daten per <code>POST</code> abgeschickt. Mit dieser Methode ist es nicht möglich, die Daten einfach auszulesen.</p>
+            <div class="row">
+                <div class="col-xs-12">
+                <p>Übergebene Daten:
+                    <code>
+                        <?=$_POST['post-username']?>
+                        <?=$_POST['post-password']?>
+                    </code>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

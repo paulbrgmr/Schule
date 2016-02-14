@@ -6,7 +6,7 @@
             <!-- <span>Menü</span> -->
             <?php include 'nav-icon.php'; ?>
         </button>
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="../index.php">
             <img src="../_resources/img/logo-white.svg" alt="PHP Logo">
         </a>
     </div>

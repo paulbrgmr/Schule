@@ -58,6 +58,14 @@
             @include margin-top-bottom(60px);
         }
     }
+
+    footer {
+        .footer-index {
+            .footer-github {
+                text-align: right;
+            }
+        }
+    }
 }
 
 @media (min-width: $screen-md-min) {
