@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    }
    
    if (empty($_POST["email"])) {
-     $emailErr = "Email ist erforderlich";
+     $emailErr = "E-Mail ist erforderlich";
    } else {
      $email = validation_input($_POST["email"]);
    }
@@ -47,7 +47,7 @@ function validation_input($data) {
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
            <p>Name*:</p> <input type="text" name="name" tabindex="1">
            <p class="text-danger"><?php echo $nameErr;?></p>
-           <p>E-mail*:</p><input type="text" name="email" tabindex="2">
+           <p>E-Mail*:</p><input type="text" name="email" tabindex="2">
            <p class="text-danger"><?php echo $emailErr;?></p>
            <p>Comment:</p> <textarea name="comment" rows="3" cols="40" tabindex="3"></textarea>
            <p>Gender*:</p>
@@ -67,7 +67,7 @@ function validation_input($data) {
             <p><span class="error">* erforderliche Felder</span></p>
             <div class="row">
                 <div class="col-xs-4">
-                   <button class="btn btn-primary btn-block" type="submit" name="submit" value="Submit" tabindex="4">Submit</button> 
+                   <button class="btn btn-primary btn-block" type="submit" name="submit" value="Submit" tabindex="4">Submit</button>
                 </div>
             </div>
         </form>
@@ -80,7 +80,7 @@ function validation_input($data) {
                     $comment = 'Kein Kommentar abgeschickt.';
                 }
                 echo '<p> Name: ' . $name . '</p>';
-                echo '<p> EMail: ' . $email . '</p>';
+                echo '<p> E-Mail: ' . $email . '</p>';
                 echo '<p> Kommentar: ' . $comment . '</p>';
                 echo '<p> Geschlecht: ' . $gender . '</p>';
             }

@@ -229,7 +229,7 @@ main {
 }
 
 p {
-  margin: 0 0 ($line-height-computed / 3.5);
+    margin: ($line-height-computed / 3.5) 0 ($line-height-computed / 3.5);
 }
 
 .content-formular {

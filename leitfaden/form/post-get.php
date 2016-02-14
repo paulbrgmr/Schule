@@ -73,11 +73,11 @@
             <p>In diesem Beispiel werden die Daten per <code>POST</code> abgeschickt. Mit dieser Methode ist es nicht möglich, die Daten einfach auszulesen.</p>
             <div class="row">
                 <div class="col-xs-12">
-                <p>Übergebene Daten:
-                    <code>
-                        <?=$_POST['post-username']?>
-                        <?=$_POST['post-password']?>
-                    </code>
+                    <p>Übergebene Daten:
+                        <code>
+                            <?=$_POST['post-username']?>
+                            <?=$_POST['post-password']?>
+                        </code>
                     </p>
                 </div>
             </div>
