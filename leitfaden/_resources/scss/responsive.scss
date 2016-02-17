@@ -69,8 +69,6 @@
 }
 
 @media (min-width: $screen-md-min) {
-    @import "nav-animation";
-    
     nav {
         .navbar {
             border: $navbar-default-border-width;
@@ -186,9 +184,46 @@
                 }
             }
         }
+        // Link Styles by Kevin Gimbel http://kevingimbel.com/
+        a {
+            &:not(.navbar-brand) {
+                font-size: 18px;
+                &:hover {
+                    &:after {
+                       transform: scaleX(1);
+                    }
+                }
+                &, &:hover, &:focus, &:active {
+                    text-decoration: none;
+                }
+                text-decoration: none;
+                color: #01579B;
+                z-index: 2;
+                $text-shadow-color: #212121;
+                text-shadow: 
+                .05em 0 0 $text-shadow-color, -.05em -0 0 $text-shadow-color,
+                .15em 0 0 $text-shadow-color,-0.15em -0 0 $text-shadow-color,
+                .2em 0 0 $text-shadow-color,-.2em -0 0 $text-shadow-color;
+                position: relative;
+                &:after {
+                    content: '';
+                    height: 1px;
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: 15px;
+                    transform: scaleX(0);
+                    transition: linear .15s;
+                    background: currentColor;
+                    z-index: -1;
+                }
+            }
+        }
     }
 
     main {
+        min-height: 1000px;
         .content {
             &-index {
                 .intro-wrapper {
@@ -218,7 +253,6 @@
                 }
             }
         }
-        min-height: 1000px;
         // Link Styles by Kevin Gimbel http://kevingimbel.com/
         a {
             &:not(.btn) {
@@ -236,6 +270,7 @@
             }
         }
     }
+
     .overview {
         @include margin-top-bottom(30px);
         p {
