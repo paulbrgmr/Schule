@@ -9,6 +9,7 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="_resources/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="_resources/css/style.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
     </head>
     <body>
         <nav>
