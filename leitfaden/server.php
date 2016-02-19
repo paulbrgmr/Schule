@@ -52,41 +52,60 @@
             <hr>
             <h2 class="text-center">PHP</h2>
             <p>PHP ist eine Skriptsprache, die hauptsächlich zur Erstellung dynamischer Webseiten oder Webanwendungen verwendet wird.</p>
-            <div class="info-wrapper">
-                <p>Damit PHP auf auf dem Server ausgeführt werden kann muss die entsprechende Datei mit <code>.php</code> enden.</p>
-                <p>PHP wird in dieser Datei wird wie folgt gestartet:</p>
-                <div class="code-wrapper">
-                    <?php 
-                        highlight_string('<?php');
-                    ?>
-                </div>
-                <p>Durch ein <code>echo</code> kann unformatierter Text ausgegeben werden:</p>
-                <div class="code-wrapper">
-                    <?php 
-                        highlight_string('echo "Ich bin ein Beispieltext.";');
-                    ?>
-                </div>
-                <p>Um den PHP Code zu schließen schreibt man folgendes:</p>
-                <div class="code-wrapper">
-                    <?php 
-                        highlight_string('?>');
-                    ?>
-                </div>
-                <p>Zusammengesetzt sieht der funktionierende Code so aus:</p>
-                <div class="code-wrapper">
-                    <?php 
-                        highlight_string('<?php echo "Ich bin ein Beispieltext."; ?>');
-                    ?>
-                </div>
-                <p>Und gibt folgendes aus:</p>
-                <div class="code-wrapper">
-                    <?php 
-                        echo "Ich bin ein Beispieltext.";
-                    ?>
+            <div class="row">
+                <div class="equal-height">
+                    <div class="col-md-6">
+                        <div class="info-wrapper">
+                            <div class="info-wrapper-inner">
+                                <p>Damit PHP auf auf dem Server ausgeführt werden kann muss die entsprechende Datei mit <code>.php</code> enden.</p>
+                                <div class="code-wrapper">
+                                    <?php 
+                                        highlight_string('<?php');
+                                    ?>
+                                </div>
+                                <div class="code-wrapper">
+                                    <?php 
+                                        highlight_string('echo "Ich bin ein Beispieltext.";');
+                                    ?>
+                                </div>
+                                <div class="code-wrapper">
+                                    <?php 
+                                        highlight_string('?>');
+                                    ?>
+                                </div>
+                                <div class="code-wrapper">
+                                    <?php 
+                                        highlight_string('<?php echo "Ich bin ein Beispieltext."; ?>');
+                                    ?>
+                                </div>
+                                <div class="code-wrapper">
+                                    <?php 
+                                        echo "Ich bin ein Beispieltext.";
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-wrapper">
+                            <div class="text-wrapper-inner">
+                                <!-- <p>PHP wird in dieser Datei wird wie folgt gestartet:</p>
+                                <p>Durch ein <code>echo</code> kann unformatierter Text ausgegeben werden:</p>
+                                <p>Um den PHP Code zu schließen schreibt man folgendes:</p>
+                                <p>Zusammengesetzt sieht der funktionierende Code so aus:</p>
+                                <p>Und gibt folgendes aus:</p> -->
+                                <p>PHP wird in dieser Datei wird wie folgt gestartet:</p>
+                                <p>Durch ein <code>echo</code> kann unformatierter Text ausgegeben werden:</p>
+                                <p>Um den PHP Code zu schließen schreibt man folgendes:</p>
+                                <p>Zusammengesetzt sieht der funktionierende Code so aus:</p>
+                                <p>Und gibt folgendes aus:</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <p>Das wären ein Einstieg. Um diesen Einstieg mit anderen Grundlagen zu erweitern können z.B. Variablen verwendet werden.</p>
-            <div class="info-wrapper">
+            <div class="info-wrapper-inner">
                 <p>Eine Variable wird durch <code>$[text]</code> definiert.</p>
                 <p>Im PHP sieht das dann so aus:</p>
                 <div class="code-wrapper">
