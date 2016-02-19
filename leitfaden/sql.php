@@ -95,13 +95,13 @@ Hier ein kleiner Überblick:</p>
                 <img src="_resources/img/sql/normalform.png" class="img-responsive">
             </div>
             <div class="col-md-6">
-                <strong>1. Normalform</strong>
+                <h4>1. Normalform</h4>
                 <p>Atomisieren, das Datenfeld darf nur gleichartigen Inhalt enthalten, z.B. Name wird zu Vor und Nachname</p>
-                <strong>2. Normalform</strong>
+                <h4>2. Normalform</h4>
                 <p>Die Erste muss erfüllt sein.</p> 
                 <p>Die 2. Normalform besagt die Trennung der Tabelle in mehrere thematisch angepasste Datensätze.</p>
                 <p>z.B. aufgeteilt in Kundendaten/Artikeldaten etc.</p>
-                <strong>3. Normalform</strong>
+                <h4>3. Normalform</h4>
                 <p>transitive Abhängigkeiten, erst wenn 1. und 2. Normalform erfüllt sind.</p>
                 <p>Hier geht es um die indirekten Abhängigkeiten, in Tabellen sollen nur direkte Abhängigkeiten vorhanden sein. </p>
                 <p>z.B. eine Tabelle mit name-plz-ort hat eine direkte Abhängigkeit von name zu zu plz, plz hat eine direkte zu ort, name somit eine indirekte zu ort.</p>
