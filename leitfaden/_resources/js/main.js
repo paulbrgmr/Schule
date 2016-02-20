@@ -48,7 +48,7 @@ $(function() {
     }
     else if (pathname == pathsrc + navURL[3]) {
         selectNavItem(navID[3]);
-    }
+    };
 
     // console.log(pathname);
 
@@ -70,24 +70,58 @@ $(function() {
             trigger.addClass('is-open');
             isClosed = true;
         }
-    }
+    };
 
-    lightbox.option();
+    // $.lightbox();
 
     $.bigfoot();
 
-    // $('form#form-get').on('submit', function (e) {
-    //     e.preventDefault(); //prevent to reload the page
+
+    // $.(document).('click','input[name="mySubmitButton"]',function(e){
+    //     e.preventDefault();
+
+    //     var $form = $(this).parents('form');
 
     //     $.ajax({
-    //         type: 'GET', //hide url
-    //         url: '../../form/post-get.php', //your form validation url
-    //         data: $('form#form-get').serialize(),
-    //         success: function () {
-    //             alert('The form was submitted successfully'); //display an alert whether the form is submitted okay
+    //         url: $form.attr('action'),
+    //         data: $form.serialize(),
+    //         success: function(response){
+    //             $('.ajax-success-msg').removeClass('hidden');
     //         }
     //     });
+    // });
 
+    function formLoad(id, content, url) {
+        $(id).on('click','input[type="submit"]',function(e){
+            e.preventDefault();
+
+            var $form = $(this).parents('form');
+
+            $.ajax({
+                url: $form.attr('action'),
+                data: $form.serialize(),
+                success: function(response){
+                    $(content).load(url);
+                }
+            });
+        });
+    }
+
+    formLoad('#ajax-form', '#ajax-form-result', '../form/ajax-form-action.php');
+    // formLoad('#create-username', '#create-username-result', '../form/database-action.php');
+
+    // $('#ajax-form').on('click','input[type="submit"]',function(e){
+    //     e.preventDefault();
+
+    //     var $form = $(this).parents('form');
+
+    //     $.ajax({
+    //         url: $form.attr('action'),
+    //         data: $form.serialize(),
+    //         success: function(response){
+    //             $('#ajax-form-result').load('../form/ajax-form-action.php');
+    //         }
+    //     });
     // });
 
 });
