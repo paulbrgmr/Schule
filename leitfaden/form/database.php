@@ -90,7 +90,7 @@ $conn->close();
                     <label for="password">Passwort:</label>
                     <div class="row">
                         <div class="col-md-6">
-                            <input id="password" type="text" class="form-control" name="password">
+                            <input id="password" type="password" class="form-control" name="password">
                             <p class="text-danger"><?php echo $passwordErr;?></p>
                         </div>
                     </div>
