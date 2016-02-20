@@ -1,4 +1,4 @@
-<?php 
+<?php
     include 'content.php';
 ?>
 </div> <!-- closing '<div class="container content" id="main-content">' for fullscreen -->
@@ -26,93 +26,66 @@
     </div>
 </div>
 <div class="container overview">
-        <div class="row">
-            <div class="col-xs-12 col-md-6">
-                <div class="row">
-                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-3 col-md-3">
-                        <img src="_resources/img/document.svg" class="img-responsive overview-img">
-                    </div>
-                    <div class="col-xs-12 col-sm-9 col-md-9">
-                        <div class="overview-text">
-                            <h3>Grundlagen</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
-                            <a href="grundlagen.php" title="Grundlagen - mehr erfahren">mehr erfahren</a>
-                        </div>
-                    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-3 col-md-3">
+                    <img src="_resources/img/document.svg" class="img-responsive overview-img">
                 </div>
-            </div>
-            <div class="col-xs-12 col-md-6">
-                <div class="row">
-                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-3 col-md-3">
-                        <img src="_resources/img/server.svg" class="img-responsive overview-img">
-                    </div>
-                    <div class="col-xs-12 col-sm-9 col-md-9">
-                        <div class="overview-text">
-                            <h3>Server</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
-                            <a href="server.php" title="Server - mehr erfahren">mehr erfahren</a>
-                        </div>
+                <div class="col-xs-12 col-sm-9 col-md-9">
+                    <div class="overview-text">
+                        <h3>Grundlagen</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <a href="grundlagen.php" title="Grundlagen - mehr erfahren">mehr erfahren</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-6 overview-panel">
-                <div class="row">
-                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-3 col-md-3">
-                        <img src="_resources/img/formular.svg" class="img-responsive overview-img">
-                    </div>
-                    <div class="col-xs-12 col-sm-9 col-md-9">
-                        <div class="overview-text">
-                            <h3>Formulare</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
-                            <a href="formular.php" title="Formulare - mehr erfahren">mehr erfahren</a>
-                        </div>
-                    </div>
+        <div class="col-xs-12 col-md-6">
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-3 col-md-3">
+                    <img src="_resources/img/server.svg" class="img-responsive overview-img">
                 </div>
-            </div>
-            <div class="col-xs-12 col-md-6 overview-panel">
-                <div class="row">
-                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-3 col-md-3">
-                        <img src="_resources/img/sql.svg" class="img-responsive overview-img">
-                    </div>
-                    <div class="col-xs-12 col-sm-9 col-md-9">
-                        <div class="overview-text">
-                            <h3>SQL</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
-                            <a href="sql.php" title="SQL - mehr erfahren">mehr erfahren</a>
-                        </div>
+                <div class="col-xs-12 col-sm-9 col-md-9">
+                    <div class="overview-text">
+                        <h3>Server</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <a href="server.php" title="Server - mehr erfahren">mehr erfahren</a>
                     </div>
                 </div>
             </div>
         </div>
-    <!-- <div class="info-wrapper">
-        <div class="row">
-            <div class="col-lg-12">
-                <p>PHP Beispiel:</p>
-            </div>
-            <div class="col-lg-6">
-                <div class="code-wrapper">
-                    <?php 
-                        highlight_string('<?php echo "Ich bin ein Beispieltext."; ?>');
-                    ?>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6 overview-panel">
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-3 col-md-3">
+                    <img src="_resources/img/formular.svg" class="img-responsive overview-img">
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="wrapper-desc">
-                    <p>In diesem Beispiel wird mit echo ein Wert, in diesem Fall ein string, ausgegeben.</p>
+                <div class="col-xs-12 col-sm-9 col-md-9">
+                    <div class="overview-text">
+                        <h3>Formulare</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <a href="formular.php" title="Formulare - mehr erfahren">mehr erfahren</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-4 col-lg-2">
-                <div class="btn btn-primary btn-block">
-                    Probier es aus!
+        <div class="col-xs-12 col-md-6 overview-panel">
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-3 col-md-3">
+                    <img src="_resources/img/sql.svg" class="img-responsive overview-img">
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-9">
+                    <div class="overview-text">
+                        <h3>SQL</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <a href="sql.php" title="SQL - mehr erfahren">mehr erfahren</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-12"></div>
         </div>
-    </div> -->
+    </div>
 </div>
 
 <?php
