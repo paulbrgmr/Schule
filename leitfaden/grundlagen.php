@@ -69,13 +69,14 @@ ist es wichtig grundlegende Begriffe und Vorgänge zu klären.</p>
 und was dir das für Vorteile bieten kann erfährst du hier.</p>
         </div>
         <div class="col-md-6">
-            <img src="_resources/img/grundlagen/the_truth_about_sessions_1.png" alt="" class="img-responsive">
+            <img src="_resources/img/grundlagen/grafik_cookie.png" alt="" class="img-responsive">
         </div>
         <div class="col-md-6">
             <h4>HTTP</h4>
             <p>Die für die Abfrage einer Seite verwendete Verbindung zwischen dem Rechner des Benutzers und dem Server, auf dem die Website liegt, ist keine dauerhafte Verbindung. Sie wird für jede Anfrage neu aufgebaut.</p>
             <p>Daher spricht man von einem Zustandslosem Protokoll.</p>
             <p>Ein zuverlässiges Mitführen von Sitzungsdaten kann erst durch Implementierung von Cookies erreicht werden. Dadurch sind dauerhafte Logins, Warenkörbe, persönliche Einstellungen bei einer Website, usw. möglich.</p>
+            <p>Der Client schickt einen HTTP Request, der Server gibt eine HTTP Response inkl. einem neuen Cookie zurück. In diesem Cookie sind Informationen gespeichert, die der Seitenbetreiber selbst festlegen kann. Beim nächsten HTTP Request vom Client schickt der Client den Request inkl. den Cookie Informationen an den Server / Seitenbetreiber. Somit weiß dieser, wer den Request abgeschickt hat und gibt die entsprechende Response zurück.</p>
         </div>
     </div>
     <div class="row">
@@ -97,6 +98,7 @@ und was dir das für Vorteile bieten kann erfährst du hier.</p>
             <p><strong>asynchroner Datenaustausch:</strong> der Benutzer kann weiter arbeiten, während im Hintergrund Daten ausgetauscht werden, nicht die gesamte Seite sondern nur die relevanten Teile werden neu geladen.</p>
             <p>z.B. Anzeige von Suchergebnissen in Goolge während der Eingabe im Suchfeld</p>
             <p>Mit XMLHttpRequest wird dieses Vorgehen möglich, mehr dazu unter: <a href="https://wiki.selfhtml.org/wiki/JavaScript/XMLHttpRequest" title="HTML Request">https://wiki.selfhtml.org/wiki/JavaScript/XMLHttpRequest</a></p>
+            <a href="form/ajax-form.php" class="btn btn-primary">AJAX Beispiel</a>
         </div>
     </div>
 </div>
