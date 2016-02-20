@@ -42,16 +42,16 @@
             <input type="submit">
             <input type="reset">
         </form>
-        <div class="info-wrapper">
+        <div class="info-wrapper-inner">
             <p>Die grundlegende Struktur eines Formulars:</p>
             <div class="code-wrapper">
                 <?php 
                     highlight_string(
-    '<form action="testfile.php" method="POST">
-        <input type="text">
-        <input type="submit">
-        <input type="reset">
-    </form>');
+'<form action="testfile.php" method="POST">
+    <input type="text">
+    <input type="submit">
+    <input type="reset">
+</form>');
                 ?>
             </div>
             <p><code>action="testfile.php"</code> bestimmt, wohin weitergeleitet werden soll, nachdem der User die Daten eingegeben und das
@@ -63,13 +63,13 @@
         </div>
         <label for="Vorname">Vorname:</label>
         <input id="Vorname" type="text" placeholder="Vorname" name="Vorname">
-        <div class="info-wrapper">
+        <div class="info-wrapper-inner">
             <p>Um ein <code>input</code> korrekt, für Sehschwache und benutzerfreundlich zu schreiben, wird ein <code>label</code> empfohlen.</p>
             <div class="code-wrapper">
                 <?php 
                     highlight_string(
-    '<label for="Vorname">Vorname:</label>
-    <input id="Vorname" type="text" placeholder="Vorname" name="Vorname">');
+'<label for="Vorname">Vorname:</label>
+<input id="Vorname" type="text" placeholder="Vorname" name="Vorname">');
                 ?>
             </div>
             <p>Um den gewünschten Effekt zu erreichen müssen <code>label</code> und <code>input</code> miteinander verknüpft werden.</p>
