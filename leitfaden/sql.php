@@ -125,7 +125,9 @@ Hier ein kleiner Überblick:</p>
                 <div class="col-xs-12">
                     <div class="row">
                         <div class="col-sm-6">
-                            <img src="_resources/img/sql/database/db-overview.png" class="img-responsive">
+                            <a href="_resources/img/sql/database/db-overview.png" data-lightbox="image-1" data-title="">
+                                <img src="_resources/img/sql/database/db-overview.png" class="img-responsive">
+                            </a>
                         </div>
                         <div class="col-sm-6">
                             <strong>1. Schritt:</strong>
@@ -138,8 +140,9 @@ Hier ein kleiner Überblick:</p>
                 <div class="col-xs-12">
                     <div class="row">
                         <div class="col-sm-6">
-                            <img src="_resources/img/sql/database/db-create.png" class="img-responsive">
-                            <!-- <img src="_resources/img/sql/database/db-content.png" class="img-responsive"> -->
+                            <a href="_resources/img/sql/database/db-create.png" data-lightbox="image-1" data-title="">
+                                <img src="_resources/img/sql/database/db-create.png" class="img-responsive">
+                            </a>
                         </div>
                         <div class="col-sm-6">
                             <strong>2. Schritt:</strong>
@@ -155,10 +158,14 @@ Hier ein kleiner Überblick:</p>
                         </div>
                         <div class="col-xs-12">
                             <p>Nun sollte dein Tabellenfeld angezeigt werden. In der ersten Spalte gibst du deine Tabelleninhalte an, die du weiter spezifizieren musst:</p>
-                            <img src="_resources/img/sql/database/db-content-all.png" class="img-responsive">
+                            <a href="_resources/img/sql/database/db-content-all.png" data-lightbox="image-1" data-title="">
+                                <img src="_resources/img/sql/database/db-content-all.png" class="img-responsive">
+                            </a>
                             <dl>
                                 <dt>Feldname:</dt>
                                 <dd>ID ist oft sinvoll (Primärschlüssel)</dd>
+                            </dl>
+                            <dl>
                                 <dt>Typ:</dt>
                                 <dd>
                                     <ul class="list-unstyled">
@@ -173,10 +180,16 @@ Hier ein kleiner Überblick:</p>
                                         </li>
                                     </ul>
                                 </dd>
+                            </dl>
+                            <dl>
                                 <dt>Länge:</dt>
                                 <dd>max. Länge</dd>
+                            </dl>
+                            <dl>
                                 <dt>Kollation:</dt>
                                 <dd>Die Kollation hast du am Anfang angegeben</dd>
+                            </dl>
+                            <dl>
                                 <dt>Festlegung:</dt>
                                 <dd>Primärschlüssel</dd>
                             </dl>
@@ -190,6 +203,54 @@ Hier ein kleiner Überblick:</p>
                     <h3>Auf die Datenbank zugreifen</h3>
                     <p>Wie du per PHP auf deine Datenbank zugreifen kannst, zeigt dir der folgende Screen:</p>
                     <!-- Screen SQL -->
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8">
+                            <div class="info-wrapper-inner">
+                                <div class="code-wrapper">
+                                    <?php highlight_string(
+'<?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "root";
+    $dbname = "Schule";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+            echo "UserID: " . $row["UserID"] . "<br>";
+        }
+    }
+    else {
+        echo "0 results";
+    }
+
+    $conn->close();
+?>');
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Verbindungsaufbau</h4>
+                            <p>Für einen Verbindungsaufbau werden folgende Daten benötigt:</p>
+                            <ul class="list-unstyled">
+                                <li>- <code>servername</code>: Pfad unter dem die Datenbank zu erreichen ist</li>
+                                <li>- <code>username</code>: Der Benutzername, mit dem man sich in PMA einloggt</li>
+                                <li>- <code>password</code>: Das Passowort, mit dem man sich in PMA einloggt</li>
+                                <li>- <code>dbname</code>: Der Name der Datenbank, aus der die Inhalt kommen</li>
+                            </ul>
+                            <p>Mit <code>mysqli</code> wird definiert, mit welcher Methode die Verbindung aufgebaut werden soll.</p>
+                            <p>Mit der <code>if / while</code>-Schleife wird jede DB-Zeile durchgegangen. Die Daten werden dann durch das <code>echo</code> ausgegeben.</p>
+                            <p>Ist die Abfrage fertig, so ist es zu empfehlen die Verbindung zu beenden da dies sonst zu einer starken Serverlast führen könnte.</p>
+                        </div>
+                    </div>
                     <p>Mit diesem Leitfaden solltest du nun die Grundlagen der Porgrammierung mit PHP verstehen und eigenständig Tabellen und Datenbanken erstellen können.</p>
                 </div>
             </div>
