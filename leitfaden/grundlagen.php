@@ -8,7 +8,7 @@
             <h1 class="text-center">Grundlagen</h1>
             <p>Um sich mit datenbankgestützten Webanwendungen vertraut machen zu können, 
 ist es wichtig grundlegende Begriffe und Vorgänge zu klären.</p>
-<p>Von den unterschiedlichen Programmierungen bis hin zu AJAX und Cookies.</p>
+<p>Von den unterschiedlichen Programmierungen bis hin zu Cookies und AJAX.</p>
         </div>
         <div class="col-md-4 col-md-offset-4">
             <hr class="primary">
@@ -95,7 +95,7 @@ und was dir das für Vorteile bieten kann erfährst du hier.</p>
             <h4>Asynchroner Datenaustausch</h4>
             <p>Zum Vergleich: bei einem synchronen Datenaustausch wechseln sich Benutzeraktivität und Verarbeitung auf dem Server ab.</p>
             <p>z.B. reguläre Suche auf Suchmaschinen mit Verwendung der Eingabetaste.</p>
-            <p><strong>asynchroner Datenaustausch:</strong> der Benutzer kann weiter arbeiten, während im Hintergrund Daten ausgetauscht werden, nicht die gesamte Seite sondern nur die relevanten Teile werden neu geladen.</p>
+            <p><strong>Asynchroner Datenaustausch:</strong> der Benutzer kann weiter arbeiten, während im Hintergrund Daten ausgetauscht werden, nicht die gesamte Seite sondern nur die relevanten Teile werden neu geladen.</p>
             <p>z.B. Anzeige von Suchergebnissen in Goolge während der Eingabe im Suchfeld</p>
             <p>Mit XMLHttpRequest wird dieses Vorgehen möglich, mehr dazu unter: <a href="https://wiki.selfhtml.org/wiki/JavaScript/XMLHttpRequest" title="HTML Request">https://wiki.selfhtml.org/wiki/JavaScript/XMLHttpRequest</a></p>
             <a href="form/ajax-form.php" class="btn btn-primary">AJAX Beispiel</a>
