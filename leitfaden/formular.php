@@ -9,14 +9,14 @@
     </div>
 </div>
 <div class="container">
-    <div class="content-formular">
+    <div class="content-container">
         <p>Die wohl bekannteste und einfachste Übung in und mit PHP ist es, ein Formular zu erstellen.</p>
         <p>Es gibt zwei Arten von Formularen:</p>
         <div class="row">
-            <div class="col-sm-4 col-sm-offset-4">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4">
                 <hr class="primary">
             </div>
-            <div class="col-lg-6">
+            <div class="col-xs-12 col-sm-6">
                 <h3><code>GET</code>-Formular</h3>
                 <p>Bei GET sieht der User, welche Daten übergeben werden (kann man als Vorteil oder als Nachteil sehen)</p>
                 <p>Wenn wir ein Formular mit GET verschicken, wird in der URL-Zeile des Browser die Variablen + ihrem Wert angezeigt.</p>
@@ -25,7 +25,7 @@
                 <p>Bzw eigentlich ist nicht GET begrenzt, sondern die Url-Zeile des Browsers. Je nach Browser hat man eine maximale Länge um 1024 Zeichen und für Artikel ist das in der Regel nicht ausreichend.</p>
                 <p>Die Ergebnisseite eines GET-Formulars kann man bookmarken, da alle nötigen Informationen in der URL enthalten sind</p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-xs-12 col-sm-6">
                 <h3><code>POST</code>-Formular</h3>
                 <p>Die Ergebnisseite eines POST-Formulars kann man weder bookmarken noch im Browser aktualisieren, da die Daten nicht mehr zur Verfügung stehen.</p>
                 <p>File-Upload ist nur mit POST möglich.</p>
@@ -40,7 +40,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-xs-12 col-sm-6">
                 <div class="info-wrapper-inner">
                     <form action="" method="POST">
                         <input type="text">
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-xs-12 col-sm-6">
                 <p><code>action="testfile.php"</code> bestimmt, wohin weitergeleitet werden soll, nachdem der User die Daten eingegeben und das Formular abgeschickt hat.</p>
                 <p><code>method="POST"</code> gibt an, mit welcher der oben genannten Methoden das Formular abgeschickt werden soll.</p>
                 <p><code>&lt;input type="text"&gt;</code> definiert, welche Art von input-Feld dargestellt werden soll.</p>
@@ -68,7 +68,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-xs-12 col-sm-6">
                 <div class="info-wrapper-inner">
                     <label for="Vorname">Vorname:</label>
                     <input id="Vorname" type="text" placeholder="Vorname" name="Vorname">
@@ -82,7 +82,7 @@ placeholder="Vorname" name="Vorname">');
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-xs-12 col-sm-6">
                 <p>Um ein <code>input</code> korrekt, für Sehschwache und benutzerfreundlich zu schreiben, wird ein <code>label</code> empfohlen.</p>
                 <p>Um den gewünschten Effekt zu erreichen müssen <code>label</code> und <code>input</code> miteinander verknüpft werden.</p>
                 <p>Das geschieht mit einem <code>for="Vorname"</code> im <code>label</code> und einem <code>id="Vorname"</code> im <code>input</code></p>
@@ -99,7 +99,7 @@ placeholder="Vorname" name="Vorname">');
                 <p>Du hast nun einen grundlegenden Einblick in Formulare und dne Unterschied zwischen GET und POST bekommen.</p>
                 <p>Klicke den unten stehenden Button, um auszuprobieren inwieweit du Formulare verstanden hast:</p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-xs-12 col-lg-3">
                 <a href="form/post-get.php" class="btn btn-primary btn-block" target="_blank">
                     GET / POST ausprobieren
                 </a>
@@ -114,7 +114,7 @@ placeholder="Vorname" name="Vorname">');
                 <p>Es wird empfohlen bei jedem Formular eine <strong>Prüfung</strong> einzubauen, ob die notwendigen Fehler auch korrekt ausgefüllt wurden.</p>
                 <p>Hierbei gibt es zwei Methoden: die Clientseitige und die Serverseitige Prüfung.</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-xs-12 col-sm-6">
                 <div class="info-wrapper-inner">
                     <div class="code-wrapper">
                     <?php 
@@ -128,19 +128,19 @@ placeholder="Vorname" name="Vorname">');
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-xs-12 col-sm-6">
                 <h4>Clientseitige Prüfung</h4>
                 <p>Die Clientseitige Prüfung ist einfacher umzusetzen, jedoch fehleranfälliger.</p>
                 <p>Um ein Formularelement als benötigt zu kennzeichnen, kann das Attribut required im <code>&lt;input&gt;</code> verwendet werden.</p>
                 <p>Von dieser Verwendung ist inzwischen jedoch abzuraten, da Safari mit dieser Angabe nicht umgehen kann. </p>
                 <p>Alternativ kann man die Prüfung mit JavaScript durchführen. Es kann jedoch sein, dass der Client JavaScript im Browser deaktiviert hat und somit keine Prüfung möglich wäre.</p>
             </div>
-            <div class="col-sm-3">
+            <div class="col-xs-12 col-sm-3">
                 <a href="form/validation.php" class="btn btn-primary btn-block" target="_blank">
                     Validierung ausprobieren
                 </a>
             </div>
-            <div class="col-sm-6 col-sm-offset-3">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3">
                 <h4>Serverseitige Prüfung</h4>
                 <p>Die sicherste Formularprüfung ist daher die Serverseitige Prüfung.</p>
                 <p>Klicke auf den linksstehenden Button und du kannst eine serverseitige Prüfung eines Formulars ausprobieren.</p>

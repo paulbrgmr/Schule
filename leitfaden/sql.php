@@ -8,31 +8,31 @@
         <h1 class="text-center bg-headline">SQL</h1>
     </div>
 </div>
-<div class="container">
+<div class="container content-container">
     <div class="content-sql">
         <p>Um SQl zu verstehen reicht es nicht sich ausschließlich mit dieser Abfragesprache auseinanderzusetzen.</p>
         <p>Das Netz um SQL ist weitaus größer als man denkt, daher erst einmal die Theorie:</p>
         <div class="row">
-            <div class="col-md-offset-4 col-md-4">
+            <div class="col-xs-12 col-md-offset-4 col-md-4">
                 <hr class="primary">
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-xs-12 col-md-4">
                 <p class="headline">Was ist eine <strong>Datenbank</strong>?</p>
                 <p>Der Speicherort sämtlicher Daten auf einem physikalischen Datenträger. Die Art und Weise, wie diese Daten verwaltet werden, hängt vom Dateisystem und dem jeweiligen Datenbankmodell ab. </p>
             </div>
-            <div class="col-md-4 col-md-offset-2">
+            <div class="col-xs-12 col-md-4 col-md-offset-2">
                 <p class="headline">Was ist ein <strong>Datenbankmanagement-System</strong>?</p>
                 <p>Die Schnittstelle zwischen der Datenbank und der Kommunikationsschnittstelle zum Benutzer. <br> z.B MySQL</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-xs-12 col-md-4">
                 <p class="headline">Was ist eine <strong>Datenbank-Kommunikationsstelle</strong>?</p>
                 <p>Sie erweitert das Datenbankmanagement-System, indem es Hilfen für Anfragen oder Einträge an die Datenbank sendet. <br> z.B. phpMyAdmin</p>
             </div>
-            <div class="col-md-4 col-md-offset-2">
+            <div class="col-xs-12 col-md-4 col-md-offset-2">
                 <p class="headline">Was ist eine <strong>Datenbankmodellierung</strong>?</p>
                 <p>Die Struktur einer Datenbank muss zunächst aufgestellt werden, indem Objekte mit ihren Eigenschaften und Beziehungen (Relationen) konzipiert werden. Daraus wird eine logische Datenstruktur abgeleitet. </p>
             </div>
@@ -123,28 +123,20 @@ Hier ein kleiner Überblick:</p>
                     <p>Die Praxis gibt uns die Möglichkeit die Theorie in praktischer Anwendung verstehen zu können. Dort werden auch schnell die Vorteile ersichtlich die MySQL bietet.</p>
                 </div>
                 <div class="col-xs-12">
-                    <div class="row">
+                    <div class="row mbl">
                         <div class="col-sm-6">
                             <a href="_resources/img/sql/database/db-overview.png" data-lightbox="image-1" data-title="">
                                 <img src="_resources/img/sql/database/db-overview.png" class="img-responsive">
                             </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <strong>1. Schritt:</strong>
-                            <p>Wie XAMPP gestartet wird hast du bei den Servern schon gelernt.</p>
-                            <p>Über localhost hast du Zugriff auf phpMyAdmin, der Webanwendung mit der die Administration von MySQL Datenbanken gesteuert wird.</p>
-                            <p>Erstelle eine neue Datenbank, indem du den Namen eingibst und deine gewünschte Kollation (utf general).</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-sm-6">
                             <a href="_resources/img/sql/database/db-create.png" data-lightbox="image-1" data-title="">
                                 <img src="_resources/img/sql/database/db-create.png" class="img-responsive">
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-xs-12 col-sm-6">
+                            <strong>1. Schritt:</strong>
+                            <p>Wie XAMPP gestartet wird hast du bei den Servern schon gelernt.</p>
+                            <p>Über localhost hast du Zugriff auf phpMyAdmin, der Webanwendung mit der die Administration von MySQL Datenbanken gesteuert wird.</p>
+                            <p>Erstelle eine neue Datenbank, indem du den Namen eingibst und deine gewünschte Kollation (utf general).</p>
                             <strong>2. Schritt:</strong>
                             <p>Klicke nun auf den Reiter Datenbank um eine Tabelle anzulegen.</p>
                             <p>Daraufhin wird ein Fenster erscheinen, indem der Name der Tabelle mit den gewünschten Feldern eingegeben werden muss.
@@ -156,43 +148,59 @@ Hier ein kleiner Überblick:</p>
                                 <li>- große Datenbestände möglich</li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="row mtl">
                         <div class="col-xs-12">
                             <p>Nun sollte dein Tabellenfeld angezeigt werden. In der ersten Spalte gibst du deine Tabelleninhalte an, die du weiter spezifizieren musst:</p>
                             <a href="_resources/img/sql/database/db-content-all.png" data-lightbox="image-1" data-title="">
-                                <img src="_resources/img/sql/database/db-content-all.png" class="img-responsive">
+                                <img src="_resources/img/sql/database/db-content-all.png" class="img-responsive mbl">
                             </a>
-                            <dl>
-                                <dt>Feldname:</dt>
-                                <dd>ID ist oft sinvoll (Primärschlüssel)</dd>
-                            </dl>
-                            <dl>
-                                <dt>Typ:</dt>
-                                <dd>
-                                    <ul class="list-unstyled">
-                                        <li>
-                                            int= Zahl
-                                        </li>
-                                        <li>
-                                            Var= Text/Zahl
-                                        </li>
-                                        <li>
-                                            Date= Datum
-                                        </li>
-                                    </ul>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>Länge:</dt>
-                                <dd>max. Länge</dd>
-                            </dl>
-                            <dl>
-                                <dt>Kollation:</dt>
-                                <dd>Die Kollation hast du am Anfang angegeben</dd>
-                            </dl>
-                            <dl>
-                                <dt>Festlegung:</dt>
-                                <dd>Primärschlüssel</dd>
-                            </dl>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-2">
+                                    <dl>
+                                        <dt>Feldname:</dt>
+                                        <dd>ID ist oft sinvoll (Primärschlüssel)</dd>
+                                    </dl>
+                                </div>
+                                <div class="col-xs-12 col-sm-2">
+                                    <dl>
+                                        <dt>Typ:</dt>
+                                        <dd>
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    int= Zahl
+                                                </li>
+                                                <li>
+                                                    Var= Text/Zahl
+                                                </li>
+                                                <li>
+                                                    Date= Datum
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-xs-12 col-sm-2">
+                                    <dl>
+                                        <dt>Länge:</dt>
+                                        <dd>max. Länge</dd>
+                                    </dl>
+                                </div>
+                                <div class="col-xs-12 col-sm-2">
+                                    <dl>
+                                        <dt>Kollation:</dt>
+                                        <dd>Die Kollation hast du am Anfang angegeben</dd>
+                                    </dl>
+                                </div>
+                                <div class="col-xs-12 col-sm-2">
+                                    <dl>
+                                        <dt>Festlegung:</dt>
+                                        <dd>Primärschlüssel</dd>
+                                    </dl>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-xs-12">
                             <hr>
@@ -237,7 +245,7 @@ Hier ein kleiner Überblick:</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-xs-12 col-md-4 mtl-xs">
                             <h4>Verbindungsaufbau</h4>
                             <p>Für einen Verbindungsaufbau werden folgende Daten benötigt:</p>
                             <ul class="list-unstyled">
