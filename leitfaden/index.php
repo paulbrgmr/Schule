@@ -35,7 +35,8 @@
                 <div class="col-xs-12 col-sm-9 col-md-9">
                     <div class="overview-text">
                         <h3>Grundlagen</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <p>Um sich mit datenbankgestützten Webanwendungen vertraut machen zu können, ist es wichtig grundlegende Begriffe und Vorgänge zu klären.</p>
+<p>Von den unterschiedlichen Programmierungen bis hin zu Cookies und AJAX.</p>
                         <a href="grundlagen.php" title="Grundlagen - mehr erfahren">mehr erfahren</a>
                     </div>
                 </div>
@@ -49,7 +50,8 @@
                 <div class="col-xs-12 col-sm-9 col-md-9">
                     <div class="overview-text">
                         <h3>Server</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <p>Webserver oder lokaler Server? Und wozu brauche ich dafür PHP?</p>
+                        <p>Den Unterschied zwischen Webserver und lokalem lernst du u.a. hier.</p>
                         <a href="server.php" title="Server - mehr erfahren">mehr erfahren</a>
                     </div>
                 </div>
@@ -65,7 +67,8 @@
                 <div class="col-xs-12 col-sm-9 col-md-9">
                     <div class="overview-text">
                         <h3>Formulare</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <p>Die wohl bekannteste und einfachste Übung in und mit PHP ist es, ein Formular zu erstellen.</p>
+                        <p>Es gibt zwei Arten von Formularen.</p>
                         <a href="formular.php" title="Formulare - mehr erfahren">mehr erfahren</a>
                     </div>
                 </div>
@@ -79,7 +82,8 @@
                 <div class="col-xs-12 col-sm-9 col-md-9">
                     <div class="overview-text">
                         <h3>SQL</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt accusantium dolor omnis quis. Vitae, harum, sapiente?</p>
+                        <p>Um SQl zu verstehen reicht es nicht sich ausschließlich mit dieser Abfragesprache auseinanderzusetzen.</p>
+                        <p>Das Netz um SQL ist weitaus größer als man denkt, daher erst einmal die Theorie.</p>
                         <a href="sql.php" title="SQL - mehr erfahren">mehr erfahren</a>
                     </div>
                 </div>
