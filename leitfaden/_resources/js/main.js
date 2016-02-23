@@ -1,14 +1,5 @@
 $(function() {
 
-    // $('#main-content').load('content/webapp.php')
-    // $('#webapp').parent().addClass('active');
-
-    // var navbarList = $('.navbar-nav li');
-    // navbarList.each(function(index){
-    //     $(this).addClass('navitem-'+ index);
-    //     console.log($(this).addClass('navitem-'+ index));
-    // });
-
     var navID = ['#grundlagen', '#server', '#formular', '#sql'];
     var navURL = ['grundlagen.php', 'server.php', 'formular.php', 'sql.php'];
 
@@ -76,50 +67,34 @@ $(function() {
 
     $.bigfoot();
 
-
-    // $.(document).('click','input[name="mySubmitButton"]',function(e){
-    //     e.preventDefault();
-
-    //     var $form = $(this).parents('form');
-
-    //     $.ajax({
-    //         url: $form.attr('action'),
-    //         data: $form.serialize(),
-    //         success: function(response){
-    //             $('.ajax-success-msg').removeClass('hidden');
-    //         }
-    //     });
-    // });
-
-    function formLoad(id, content, url) {
-        $(id).on('click','input[type="submit"]',function(e){
+    function loadAjaxForm(selectForm, selectOutput) {
+        $(selectForm).submit(function(e){
             e.preventDefault();
-
-            var $form = $(this).parents('form');
-
+            var $form = $(this);
             $.ajax({
-                url: $form.attr('action'),
-                data: $form.serialize(),
+                url:    $form.attr('action'),
+                type:   'POST',
+                data:   $form.serialize(),
                 success: function(response){
-                    $(content).load(url);
+                    $(selectOutput).html(response);
+                    $form.find("input").val("");
                 }
             });
         });
     }
 
-    formLoad('#ajax-form', '#ajax-form-result', '../form/ajax-form-action.php');
-    // formLoad('#create-username', '#create-username-result', '../form/database-action.php');
+    loadAjaxForm('form.ajax-form', '#ajax-form-result');
 
-    // $('#ajax-form').on('click','input[type="submit"]',function(e){
+    // $('form.ajax-form').submit(function(e){
     //     e.preventDefault();
-
-    //     var $form = $(this).parents('form');
-
+    //     var $form = $(this);
     //     $.ajax({
-    //         url: $form.attr('action'),
-    //         data: $form.serialize(),
+    //         url:    $form.attr('action'),
+    //         type:   'POST',
+    //         data:   $form.serialize(),
     //         success: function(response){
-    //             $('#ajax-form-result').load('../form/ajax-form-action.php');
+    //             $('#ajax-form-result').html(response);
+    //             $form.find("input").val("");
     //         }
     //     });
     // });
