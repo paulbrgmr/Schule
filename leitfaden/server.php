@@ -99,88 +99,34 @@
             <p>Der Inhalt einer PHP Datei beginnt mit <code>&lt;?php</code> und endet mit <code>?&gt;</code>.</p>
         </div>
     </div>
-
-            <p>Ein Webserver wird in XAMPP über den Reiter "<code>Manage Servers</code>" gestartet werden.</p>
-            <div class="row">
-                <div class="col-lg-5">
-                    
-                </div>
-            </div>
-            <p>Im Alltagsgebrauch kann auf "<code>Start all</code>" geklickt werden und es muss nichts weiter konfiguriert werden.</p>
-            <p>Für einen schnellen Zugriff auf den Hauptordner kann auf "<code>Open Applications Folder</code>" geklickt werden und dann der Ordner "<code>htdocs</code>" ausgewählt werden.
-            Alle Dateien, die sich in diesem Ordner befinden, können im Browser unter <a href="http://localhost/" target="_blank">localhost</a> abgerufen werden.</p>
-            <div class="row">
-                <div class="col-lg-5">
-                    
-                </div>
-            </div>
-            <hr>
-            <h2 class="text-center">PHP</h2>
-            <p>PHP ist eine Skriptsprache, die hauptsächlich zur Erstellung dynamischer Webseiten oder Webanwendungen verwendet wird.</p>
-            <div class="row">
-                <div class="equal-height">
-                    <div class="col-md-6">
-                        <div class="info-wrapper">
-                            <div class="info-wrapper-inner">
-                                <p>Damit PHP auf auf dem Server ausgeführt werden kann muss die entsprechende Datei mit <code>.php</code> enden.</p>
-                                <div class="code-wrapper">
-                                    <?php 
-                                        highlight_string('<?php');
-                                    ?>
-                                </div>
-                                <div class="code-wrapper">
-                                    <?php 
-                                        highlight_string('echo "Ich bin ein Beispieltext.";');
-                                    ?>
-                                </div>
-                                <div class="code-wrapper">
-                                    <?php 
-                                        highlight_string('?>');
-                                    ?>
-                                </div>
-                                <div class="code-wrapper">
-                                    <?php 
-                                        highlight_string('<?php echo "Ich bin ein Beispieltext."; ?>');
-                                    ?>
-                                </div>
-                                <div class="code-wrapper">
-                                    <?php 
-                                        echo "Ich bin ein Beispieltext.";
-                                    ?>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="text-wrapper">
-                            <div class="text-wrapper-inner">
-                                <p>PHP wird in dieser Datei wird wie folgt gestartet:</p>
-                                <p>Durch ein <code>echo</code> kann unformatierter Text ausgegeben werden:</p>
-                                <p>Um den PHP Code zu schließen schreibt man folgendes:</p>
-                                <p>Zusammengesetzt sieht der funktionierende Code so aus:</p>
-                                <p>Und gibt folgendes aus:</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <p>Das wären ein Einstieg. Um diesen Einstieg mit anderen Grundlagen zu erweitern können z.B. Variablen verwendet werden.</p>
+    <hr>
+            
+    <p>Das wären ein Einstieg. Um diesen Einstieg mit anderen Grundlagen zu erweitern können z.B. Variablen verwendet werden.</p>
+    <div class="row">
+        <div class="col-sm-6">
             <div class="info-wrapper-inner">
-                <p>Eine Variable wird durch <code>$[text]</code> definiert.</p>
-                <p>Im PHP sieht das dann so aus:</p>
                 <div class="code-wrapper">
                     <?php 
-                        echo "$" . "myVariable = 'abc';";
+                        echo "$" . "myVariableString = 'abc';" . "<br>";
+                        echo "$" . "myVariableInteger = 123;" . "<br>";
+                        echo '$' . 'myVariableVar = ' . '$' . '_POST["input-text"];';
                     ?>
                 </div>
-                <p>Wird nun an einer anderen Stelle im PHP Code die Variable <code>$myVariable</code> aufgerufen, so wird 
-                <code>abc</code> ausgegeben.</p>
             </div>
+        </div>
+        <div class="col-sm-6">
+            <p>Eine Variable wird durch <code>$[text]</code> definiert.</p>
+            <p>Im PHP sieht das dann so aus:</p>
+            <p>Wird nun an einer anderen Stelle im PHP Code die Variable <code>$myVariableString / -Integer / -Var</code> aufgerufen, so wird 
+            <code>abc</code>, <code>123</code> oder <code>Hallo</code> ausgegeben.</p>
+        </div>
+    </div>
+            
 
 
 
 
-            <div class="section" id="css-comments">
+<!--             <div class="section" id="css-comments">
                 <div class="col">
                     <h3>Comments</h3>
                     <p>Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others. Great code comments convey context or purpose. Do not simply reiterate a component or class name.</p>
@@ -200,7 +146,7 @@
                         <span class="o">...</span>
                         <span class="p">}</span></code></pre></div>
                     </div>
-                </div>
+                </div> -->
 
 
 
