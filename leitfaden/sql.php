@@ -129,7 +129,7 @@ Hier ein kleiner Überblick:</p>
                                 <img src="_resources/img/sql/database/db-overview.png" class="img-responsive">
                             </a>
                             <a href="_resources/img/sql/database/db-create.png" data-lightbox="image-1" data-title="">
-                                <img src="_resources/img/sql/database/db-create.png" class="img-responsive">
+                                <img src="_resources/img/sql/database/db-create.png" class="img-responsive mtl">
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-6">

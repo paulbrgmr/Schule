@@ -4,35 +4,32 @@
 
 <div class="container">
     <div class="row">
+        <div class="col-xs-12">
+            <h1 class="text-center">Methoden von Formularen</h1>
+        </div>
         <div class="col-xs-12 col-md-6">
-            <h2 class="text-center"><code>GET</code></h2>
+            <h2 class="text-center">GET</h2>
             <form id="form-get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="get">
                 <div class="row">
                     <div class="col-xs-offset-2 col-xs-8">
                         <input type="text" class="form-control" placeholder="Username" name="get-username">
                     </div>
-                    <div class="col-xs-offset-2 col-xs-8">
+                    <div class="col-xs-offset-2 col-xs-8 mts">
                         <input type="password" class="form-control" placeholder="Password" name="get-password">
                     </div>
                     <div class="col-xs-offset-2 col-xs-8">
-                        <div class="row">
+                        <div class="row mtm">
                             <div class="col-xs-6">
                                 <button class="btn btn-primary btn-block" type="submit">
                                     Senden
                                 </button>
                             </div>
                             <div class="col-xs-6">
-                                <a href="post-get.php" class="btn btn-primary btn-block">
+                                <a href="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="btn btn-primary btn-block">
                                     Reset
                                 </a>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-offset-2 col-xs-8">
-                        <?=$_GET['post-password']?>
-                        <?=$_GET['post-username']?>
                     </div>
                 </div>
             </form>
@@ -43,26 +40,31 @@
                     echo '<code>' . $path_parts['basename'] . '</code>';
                 ?>
             </p>
+            <p>Übergebene Daten:</p>
+            <?php
+                echo 'Username: ' . $_GET['get-username'] . '<br>';
+                echo 'Passwort: ' . $_GET['get-password'];
+            ?>
         </div>
         <div class="col-xs-12 col-md-6">
-            <h2 class="text-center"><code>POST</code></h2>
+            <h2 class="text-center">POST</h2>
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
                 <div class="row">
                     <div class="col-xs-offset-2 col-xs-8">
                         <input type="text" class="form-control" placeholder="Username" name="post-username">
                     </div>
-                    <div class="col-xs-offset-2 col-xs-8">
+                    <div class="col-xs-offset-2 col-xs-8 mts    ">
                         <input type="password" class="form-control" placeholder="Password" name="post-password">
                     </div>
                     <div class="col-xs-offset-2 col-xs-8">
-                        <div class="row">
+                        <div class="row mtm">
                             <div class="col-xs-6">
                                 <button class="btn btn-primary btn-block" type="submit">
                                     Senden
                                 </button>
                             </div>
                             <div class="col-xs-6">
-                                <a href="post-get.php" class="btn btn-primary btn-block">
+                                <a href="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="btn btn-primary btn-block">
                                     Reset
                                 </a>
                             </div>

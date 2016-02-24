@@ -70,7 +70,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <div class="info-wrapper-inner">
-                    <label for="Vorname">Vorname:</label>
+                    <label for="Vorname" class="mrm">Vorname:</label>
                     <input id="Vorname" type="text" placeholder="Vorname" name="Vorname">
                     <div class="code-wrapper">
                         <?php 
