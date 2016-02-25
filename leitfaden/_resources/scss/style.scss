@@ -315,6 +315,9 @@ footer {
         @include margin-left-right(0);
         .footer-github {
             text-align: center;
+            #github-link {
+                color: #424242;
+            }
         }
     }
 }

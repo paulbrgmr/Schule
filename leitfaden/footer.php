@@ -11,7 +11,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-4">
                             <p class="footer-github">
-                                <a href="https://github.com/paulbrgmr/schule_php/tree/master/leitfaden" title="Paul auf Github" target="_blank">Diese Seite auf Github</a>
+                                <a href="https://github.com/paulbrgmr/schule_php/tree/master/leitfaden" title="Paul auf Github" target="_blank" id="github-link">Diese Seite auf Github</a>
                             </p>
                         </div>
                     </div>
