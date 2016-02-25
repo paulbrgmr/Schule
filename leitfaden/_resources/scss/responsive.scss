@@ -88,14 +88,11 @@
                         margin-left: 75px;
                         li {
                             a {
-                            @include padding-left-right(15px);
-                                &:hover {
-                                }
+                                @include padding-left-right(15px);
                             }
                             &.active {
                                 a {
                                     &:not(.navbar-brand) {
-                                        font-size: 18px;
                                         text-decoration: none;
                                         color: #fff;
                                         z-index: 2;

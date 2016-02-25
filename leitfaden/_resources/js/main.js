@@ -25,19 +25,20 @@ $(function() {
     };
 
     var pathname = window.location.pathname; // Returns path only
-    var pathsrc = '/Schule_PHP/leitfaden/';
+    var pathsrc = pathname.split('/');
+    var pathsrcPart = pathsrc[3];
     // var url      = window.location.href;     // Returns full URL
 
-    if (pathname == pathsrc + navURL[0]) {
+    if (pathsrcPart == navURL[0]) {
         selectNavItem(navID[0]);
     }
-    else if (pathname == pathsrc + navURL[1]) {
+    else if (pathsrcPart == navURL[1]) {
         selectNavItem(navID[1]);
     }
-    else if (pathname == pathsrc + navURL[2]) {
+    else if (pathsrcPart == navURL[2]) {
         selectNavItem(navID[2]);
     }
-    else if (pathname == pathsrc + navURL[3]) {
+    else if (pathsrcPart == navURL[3]) {
         selectNavItem(navID[3]);
     };
 
@@ -63,8 +64,6 @@ $(function() {
         }
     };
 
-    // $.lightbox();
-
     $.bigfoot();
 
     function loadAjaxForm(selectForm, selectOutput) {
@@ -84,19 +83,5 @@ $(function() {
     }
 
     loadAjaxForm('form.ajax-form', '#ajax-form-result');
-
-    // $('form.ajax-form').submit(function(e){
-    //     e.preventDefault();
-    //     var $form = $(this);
-    //     $.ajax({
-    //         url:    $form.attr('action'),
-    //         type:   'POST',
-    //         data:   $form.serialize(),
-    //         success: function(response){
-    //             $('#ajax-form-result').html(response);
-    //             $form.find("input").val("");
-    //         }
-    //     });
-    // });
 
 });
