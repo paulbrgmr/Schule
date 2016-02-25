@@ -18,11 +18,11 @@ ist es wichtig grundlegende Begriffe und Vorgänge zu klären.</p>
             <hr class="primary">
         </div>
         <div class="col-xs-12 col-md-6">
-            <h3 class="text-center">Serverseitige Programmierung</h3>
+            <h4>Serverseitige Programmierung</h4>
             <p>Serverseitige Programmierung bedeutet, dass die auf einem Server hinterlegte Website erst durch einen Interpreter zb PHP Interpreter läuft und im Nachhinein wieder über den Server dem Benutzer ausgespielt wird. Sie enthält am Ende nur HTML Code.</p>
         </div>
         <div class="col-xs-12 col-md-6">
-            <h3 class="text-center">Clientseitige Programmierung</h3>
+            <h4>Clientseitige Programmierung</h4>
             <p>Clientseitige Programmierung bedeutet, dass sowohl der HTML Code, als auch der Programmcode auf dem Endgerät des Benutzers ausgeführt werden.</p>
         </div>
         <div class="col-xs-12">
