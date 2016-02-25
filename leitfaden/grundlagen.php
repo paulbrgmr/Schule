@@ -102,7 +102,9 @@ und was dir das für Vorteile bieten kann erfährst du hier.</p>
             <p><strong>Asynchroner Datenaustausch:</strong> der Benutzer kann weiter arbeiten, während im Hintergrund Daten ausgetauscht werden, nicht die gesamte Seite sondern nur die relevanten Teile werden neu geladen.</p>
             <p>z.B. Anzeige von Suchergebnissen in Goolge während der Eingabe im Suchfeld</p>
             <p>Mit XMLHttpRequest wird dieses Vorgehen möglich, mehr dazu unter: <a href="https://wiki.selfhtml.org/wiki/JavaScript/XMLHttpRequest" title="HTML Request">https://wiki.selfhtml.org/wiki/JavaScript/XMLHttpRequest</a></p>
-            <a href="form/ajax-form.php" class="btn btn-primary" target="_blank">AJAX Beispiel</a>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-sm-offset-6 col-md-3 col-lg-3 col-lg-offset-0">
+            <a href="form/ajax-form.php" class="btn btn-primary btn-block" target="_blank">AJAX Beispiel</a>
         </div>
     </div>
 </div>
