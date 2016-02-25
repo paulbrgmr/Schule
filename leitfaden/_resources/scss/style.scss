@@ -70,9 +70,42 @@ nav {
                         margin-right: 20px;
                         a {
                             transition: .3s;
+                            padding-right: 0;
                             &:hover {
                                 color: #fff;
                                 transition: .3s;
+                            }
+                        }
+                        &.active {
+                            a {
+                                &:not(.navbar-brand) {
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    color: #fff;
+                                    z-index: 2;
+                                    $text-shadow-color: #212121;
+                                    text-shadow: 
+                                    .05em 0 0 $text-shadow-color, -.05em -0 0 $text-shadow-color,
+                                    .15em 0 0 $text-shadow-color,-0.15em -0 0 $text-shadow-color,
+                                    .2em 0 0 $text-shadow-color,-.2em -0 0 $text-shadow-color;
+                                    position: relative;
+                                    &:after {
+                                        content: '';
+                                        height: 1px;
+                                        width: 100%;
+                                        position: absolute;
+                                        left: 0;
+                                        right: 0;
+                                        bottom: 12px;
+                                        transform: scaleX(1);
+                                        transition: linear .01s;
+                                        background: currentColor;
+                                        z-index: -1;
+                                    }
+                                    &, &:hover, &:focus, &:active {
+                                        text-decoration: none;
+                                    }
+                                }
                             }
                         }
                     }
