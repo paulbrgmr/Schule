@@ -9,18 +9,17 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container mtl">
     <div class="content-sql">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
-                        <input type="text" placeholder="Username" name="username" class="form-control">
-                        <input type="password" placeholder="Passwort" name="password" class="form-control">
-                        <input type="text" placeholder="Hobby" name="hobby" class="form-control">
+                        <input type="text" placeholder="Username" name="username" class="form-control mts">
+                        <input type="password" placeholder="Passwort" name="password" class="form-control mts">
+                        <input type="text" placeholder="Hobby" name="hobby" class="form-control mts">
                     </div>
                 </div>
             </div>

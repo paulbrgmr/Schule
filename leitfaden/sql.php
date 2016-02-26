@@ -229,6 +229,10 @@ Hier ein kleiner Überblick:</p>
         die("Connection failed: " . $conn->connect_error);
     }
 
+    // Select data
+    $sql = "SELECT * FROM `AJAX_Form";
+    $result = $conn->query($sql);
+
     if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
@@ -257,6 +261,7 @@ Hier ein kleiner Überblick:</p>
                             <p>Mit <code>mysqli</code> wird definiert, mit welcher Methode die Verbindung aufgebaut werden soll.</p>
                             <p>Mit der <code>if / while</code>-Schleife wird jede DB-Zeile durchgegangen. Die Daten werden dann durch das <code>echo</code> ausgegeben.</p>
                             <p>Ist die Abfrage fertig, so ist es zu empfehlen die Verbindung zu beenden da dies sonst zu einer starken Serverlast führen könnte.</p>
+                            <a href="form/login.php" class="btn btn-primary" target="_blank">Daten eintragen</a>
                         </div>
                     </div>
                     <p>Mit diesem Leitfaden solltest du nun die Grundlagen der Porgrammierung mit PHP verstehen und eigenständig Tabellen und Datenbanken erstellen können.</p>
