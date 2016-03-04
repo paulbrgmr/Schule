@@ -42,8 +42,7 @@
             </p>
             <p>Übergebene Daten:</p>
             <?php
-                echo 'Username: ' . $_GET['get-username'] . '<br>';
-                echo 'Passwort: ' . $_GET['get-password'];
+                echo 'Username: ' . $_GET['get-username'] . '<br>' .'Passwort: ' . $_GET['get-password'];
             ?>
         </div>
         <div class="col-xs-12 col-md-6">

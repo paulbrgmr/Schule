@@ -77,11 +77,17 @@ $(function() {
                 success: function(response){
                     $(selectOutput).html(response);
                     $form.find("input").val("");
+                    // console.log(response);
+                    console.log($(selectOutput).html(response));
+                    console.log(selectOutput);
+                    console.log(selectForm);
                 }
             });
         });
     }
 
     loadAjaxForm('form.ajax-form', '#ajax-form-result');
+    loadAjaxForm('form.ajax-login-create', '#login-ajax');
+    loadAjaxForm('form.ajax-login-update', '#update-ajax');
 
 });

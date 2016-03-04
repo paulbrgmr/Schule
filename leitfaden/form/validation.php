@@ -7,6 +7,13 @@
 $nameErr = $emailErr = $genderErr = "";
 $name = $email = $gender = $comment = "";
 
+function validation_input($data) {
+   $data = trim($data);
+   $data = stripslashes($data);
+   $data = htmlspecialchars($data);
+   return $data;
+}
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
    if (empty($_POST["name"])) {
      $nameErr = "Name ist erforderlich";
@@ -33,12 +40,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    }
 }
 
-function validation_input($data) {
-   $data = trim($data);
-   $data = stripslashes($data);
-   $data = htmlspecialchars($data);
-   return $data;
-}
 ?>
 
 <h3 class="text-center">Formular Validierung</h3>
@@ -85,6 +86,70 @@ function validation_input($data) {
                 echo '<p> Geschlecht: ' . $gender . '</p>';
             }
         ?>
+    </div>
+    <div class="col-xs-12">
+        <hr>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Behind the scenes
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Validierung</h4>
+                    </div>
+                    <div class="modal-body">
+                        <?php 
+                            highlight_string(
+'<?php
+// define variables and set to empty values
+$nameErr = $emailErr = $genderErr = "";
+$name = $email = $gender = $comment = "";
+
+function validation_input($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    data = htmlspecialchars($data);
+    return $data;
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (empty($_POST["name"])) {
+        $nameErr = "Name ist erforderlich";
+    } else {
+        $name = validation_input($_POST["name"]);
+    }
+
+    if (empty($_POST["email"])) {
+        $emailErr = "E-Mail ist erforderlich";
+    } else {
+        $email = validation_input($_POST["email"]);
+    }
+
+    if (empty($_POST["comment"])) {
+        $comment = "";
+    } else {
+        $comment = validation_input($_POST["comment"]);
+    }
+
+    if (empty($_POST["gender"])) {
+        $genderErr = "Geschlecht ist erforderlich";
+    } else {
+        $gender = validation_input($_POST["gender"]);
+    }
+}
+?>');
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

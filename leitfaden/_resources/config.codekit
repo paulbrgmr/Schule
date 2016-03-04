@@ -1369,28 +1369,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/bg\/eservicebanner.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 392611,
-		"inputAbbreviatedPath": "\/img\/bg\/eservicebanner.jpg",
-		"outputAbbreviatedPath": "\/img\/bg\/eservicebanner.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bg\/Fluence-Technology-Experts.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.18294e+06,
-		"inputAbbreviatedPath": "\/img\/bg\/Fluence-Technology-Experts.jpg",
-		"outputAbbreviatedPath": "\/img\/bg\/Fluence-Technology-Experts.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/bg\/html-code.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1398,17 +1376,6 @@
 		"initialSize": 898994,
 		"inputAbbreviatedPath": "\/img\/bg\/html-code.jpg",
 		"outputAbbreviatedPath": "\/img\/bg\/html-code.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bg\/technology1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.08524e+06,
-		"inputAbbreviatedPath": "\/img\/bg\/technology1.jpg",
-		"outputAbbreviatedPath": "\/img\/bg\/technology1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1530,28 +1497,6 @@
 		"initialSize": 1.26856e+06,
 		"inputAbbreviatedPath": "\/img\/macbook-mockup.png",
 		"outputAbbreviatedPath": "\/img\/macbook-mockup.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/macbook-mockup_.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.27314e+06,
-		"inputAbbreviatedPath": "\/img\/macbook-mockup_.png",
-		"outputAbbreviatedPath": "\/img\/macbook-mockup_.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/macbook-mockup_big.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.26856e+06,
-		"inputAbbreviatedPath": "\/img\/macbook-mockup_big.png",
-		"outputAbbreviatedPath": "\/img\/macbook-mockup_big.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1806,7 +1751,7 @@
 		"outputAbbreviatedPath": "\/js\/main.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
 	"\/js\/main.min.js": {

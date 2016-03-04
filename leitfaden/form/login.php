@@ -12,40 +12,61 @@
 <div class="container mtl">
     <div class="content-sql">
     </div>
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-        <div class="row">
-            <div class="col-xs-12 col-md-6">
+    <div class="row">
+        <div class="col-sm-4">
+            <form class="ajax-login-create" method="post" action="login-new.php">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <input type="text" placeholder="Username" name="username" class="form-control mts">
-                        <input type="password" placeholder="Passwort" name="password" class="form-control mts">
-                        <input type="text" placeholder="Hobby" name="hobby" class="form-control mts">
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12">
-                <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-xs-12">
                         <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <hr>
-                                <!-- <button class="btn btn-default btn-block" type="reset">Reset</button> -->
-                            </div>                            
+                            <div class="col-xs-12">
+                                <h4>Benuter erstellen</h4>
+                                <input type="text" placeholder="Username" name="username" class="form-control mts">
+                                <input type="password" placeholder="Passwort" name="password" class="form-control mts">
+                                <input type="text" placeholder="Hobby" name="hobby" class="form-control mts">
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-xs-12">
                         <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <!-- <div class="btn btn-default btn-block" type="submit">Senden</div> -->
-                                <button class="btn btn-default btn-block" type="submit">Benutzer anlegen</button>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <hr>
+                                        <button class="btn btn-primary btn-block" type="submit">Senden</button>
+                                        <div class="text-center mtm" id="login-ajax"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
-    </form>
-</div>
+    </div>
+    
+    
+    <div class="row mbl">
+        <div class="col-xs-12 col-sm-3">
+            <hr>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#php">
+                Behind the scenes
+            </button>
 
-<?php
+            <!-- Modal -->
+            <div class="modal fade" id="php" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">Validierung</h4>
+                        </div>
+                        <div class="modal-body">
+                            <?php 
+                                highlight_string(
+'<?php
 
     $servername = "localhost";
     $username = "root";
@@ -59,8 +80,8 @@
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
 
-    $input_username = $_POST['username'];
-    $input_password = $_POST['password'];
+    $input_username = $_POST["username"];
+    $input_password = $_POST["password"];
 
 
 
@@ -69,7 +90,7 @@
 
     function saltPassword($password, $salt)
     {
-        return hash('sha512', $password . $salt);
+        return hash("sha512", $password . $salt);
     }
 
     $random_num = mt_rand();
@@ -81,31 +102,18 @@
     $saltedHashPw   = saltPassword($password_salt, $salted);
 
     $sql = "INSERT INTO Freunde(Username, Password, Random_Salt, `TimeStamp`) 
-            VALUES ('$input_username', '$input_password', '$saltedHashPw', NOW())";
-    // $prepared = $conn->prepare($sql);
-    // $prepared->bind_param("sss", $input_username, $saltedHashPw, $userID_salt);
-    // $prepared->execute();
+            VALUES ("$input_username", "$input_password", "$saltedHashPw", NOW())";
 
-    // $conn->close();
-    // Select data
-    $sql = "SELECT * FROM `Freunde` WHERE 1";
-    $result = $conn->query($sql);
-
-    if ($result->num_rows > 0) {
-        // output data of each row
-        while($row = $result->fetch_assoc()) {
-            if ($input_username == $row["Username"]) {
-                echo "Benutzer anlegen erfolgreich";
-            }
-        }
-    } else {
-        echo "Benutzer anlegen fehlgeschlaen";
-    }
-
-?>
-
-
-
+    $conn->close();
+?>');
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
     include '../subpage/footer.php';

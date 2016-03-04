@@ -104,6 +104,106 @@
             </form>
             <div id="ajax-form-result"></div>
         </div>
+        <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+            <hr>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#php">
+                Behind the scenes
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="php" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">Validierung</h4>
+                        </div>
+                        <div class="modal-body">
+                            <?php 
+                                highlight_string(
+    '<?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "root";
+    $dbname = "Schule";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    $input_vorname  = $_POST["vorname"];
+    $input_nachname = $_POST["nachname"];
+    $input_hobby    = $_POST["hobby"];
+
+    $sql = "INSERT INTO AJAX_Form(Vorname, Nachname, Hobby)
+                VALUES ("$input_vorname", "$input_nachname", "$input_hobby")";
+
+    if (!$conn->query($sql)) {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+    else {
+        echo "Datenbankeintrag erfolgreich! <br>
+        Folgende Werte wurden übermittelt: <br>
+        Vorname: " . $input_vorname . "<br>" . "Nachname: " . $input_nachname . "<br>" . "Hobby: " . $input_hobby . "<br>";
+    }
+
+    $conn->close();
+    ?>');
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-sm-offset-2">
+            <hr>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ajax">
+                Behind the scenes
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="ajax" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">Validierung</h4>
+                        </div>
+                        <div class="modal-body">
+                            <?php 
+                                highlight_string(
+'function loadAjaxForm(selectForm, selectOutput) {
+    $(selectForm).submit(function(e){
+        e.preventDefault();
+        var $form = $(this);
+        $.ajax({
+            url:     $form.attr("action"),
+            type:    "POST",
+            data:    $form.serialize(),
+            success: function(response){
+                $(selectOutput).html(response);
+                $form.find("input").val("");
+            }
+        });
+    });
+}
+
+loadAjaxForm("form.ajax-form", "#ajax-form-result");');
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
