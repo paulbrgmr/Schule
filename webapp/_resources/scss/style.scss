@@ -1,1 +1,41 @@
 @import "normalize";
+
+$blue: #00A4E4;
+$gray-dark: #212121;
+$gray-light: #EAEAEA;
+$white: #fff;
+$text-color: $white;
+
+body {
+    margin-bottom: 90px;
+}
+
+nav {
+    position: fixed;
+    background-color: $white;
+    bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    ul {
+        padding-left: 0;
+        width: 100vw;
+        // font-size: 0;
+        li {
+            float: left;
+            text-align: center;
+            display: inline-block;
+            width: calc(100vw / 3);
+            a {
+                color: $gray-dark;
+                .fa {
+                    font-size: 18px;
+                }
+            }
+            &.active {
+                a {
+                    color: $blue;
+                }
+            }
+        }
+    }
+}

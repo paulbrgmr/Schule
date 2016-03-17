@@ -1,5 +1,11 @@
 <?php include 'header.php'; ?>
 
-    <h1>Text</h1>
+<ul id="demo">
+    <!-- schuelerList -->
+</ul>
+
+<?php
+    include 'navbar.php';
+?>
 
 <?php include 'footer.php'; ?>
