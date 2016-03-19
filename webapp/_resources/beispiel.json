@@ -6,8 +6,9 @@
     ],
     "boolean": true,
     "null": null,
-    "number": 123,
+    "integer": 123,
     "object": {
+        "key": "value",
         "a": "b",
         "c": "d",
         "e": "f"

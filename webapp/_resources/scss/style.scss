@@ -10,16 +10,17 @@ body {
     margin-bottom: 90px;
 }
 
-nav {
-    position: fixed;
+#navbar {
     background-color: $white;
-    bottom: 0;
+    // position: fixed;
+    // background-color: $white;
+    // bottom: 0;
     padding-top: 15px;
     padding-bottom: 15px;
     ul {
         padding-left: 0;
         width: 100vw;
-        // font-size: 0;
+        font-size: 0;
         li {
             float: left;
             text-align: center;
@@ -38,4 +39,9 @@ nav {
             }
         }
     }
+}
+
+#schuelerList {
+    list-style-type: none;
+    padding-left: 0;
 }

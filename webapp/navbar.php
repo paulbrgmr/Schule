@@ -1,4 +1,4 @@
-<nav>
+<nav id="navbar" data-role="footer" data-id="footernav" data-tap-toggle="true" data-position="fixed">
     <ul>
         <li>
             <a href="#">

@@ -1,0 +1,223 @@
+{
+    "schueler": [
+        {
+            "Name": "Andreas Birner",
+            "Geburtstag": "18.05.1994",
+            "Beruf": "Offsetdrucker",
+            "Telefon": "0173 8976098",
+            "EMail": "andreas.birner@live.de",
+            "Wohnort": "83730 Fischbachau",
+            "Ausbildung": "3 Jahre Ausbildung zum Rollendrucker bei CCL-Label in Holzkirchen",
+            "Berufserfahrung": "1 Jahr Maschinenführer an einer Gallus RCS Hybrid-Druckmaschine (Inline: Offset, Flexo, Sieb,- und Tiefdruck bis zu 13 Druckwerke)",
+            "Besondere Kenntnisse": [
+                "Praktische Erfahrung mit Kalt- und Heißprägung",
+                "Bahntrennung und Klebstoffbedruckung",
+                "E&L/AVT Inline-Bahninspektion",
+                "Pan-Tec Swiftsystem",
+                "Englischzertifkat A2",
+                "Microsoft Office-Kenntnisse",
+                "Ausbildungsberechtigung",
+                "Qualitätsmanagementbeauftragter (QMB)",
+                "Seminar bei der Fogra"
+            ],
+            "Fach": [
+                "Arbeitssicherheit",
+                "Drucktechnik 2 (PSO Zertifizierung)",
+                "Marketing",
+                "Mediendesign 2 (Broschüre)",
+                "Medienrecht",
+                "Qualitätsmanagment"
+            ]
+        },
+        {
+            "Name": "Josef Jäger",
+            "Geburtstag": "20.09.1988",
+            "Beruf": "Offsetdrucker",
+            "Telefon": "0176 84514790",
+            "EMail": "jaeger-josef@gmx.de",
+            "Wohnort": "81543 München",
+            "Ausbildung": "3 Jahre Ausbildung zum Offsetdrucker bei Kreiter Druckservice GmbH in Wolfratshausen",
+            "Berufserfahrung": "5 Jahre Maschinenführer an einer Heidelberg GTO 2-Farben, Speedmaster 52 2-Farben und Speedmaster XL-75 5-Farben + Lackwerk",
+            "Besondere Kenntnisse": [
+                "Druckweiterverarbeitungskenntnisse",
+                "Gute Englischkenntnisse in Wort und Schrift",
+                "Englischzertifkat A2",
+                "Microsoft Office- und Adobe CS-Kenntnisse",
+                "Ausbildungsberechtigung",
+                "Qualitätsmanagement-beauftragter (QMB)",
+                "Seminar bei der Fogra"
+            ],
+            "Fach": [
+                "Ausbilderschein",
+                "Druckweiterverarbeitung 2",
+                "Marketing",
+                "Mediendesign 2 (Broschüre)",
+                "Medienrecht",
+                "Qualitätsmanagment"
+            ]
+        },
+        {
+            "Name": "Waldemar Maier",
+            "Geburtstag": "08.11.1990",
+            "Beruf": "Offsetdrucker",
+            "Telefon": "0176 81325889",
+            "EMail": "maier_811@web.de",
+            "Wohnort": "86447 Arnhofen",
+            "Ausbildung": "3 Jahre Ausbildung zum Offsetdrucker bei Pflüger Lober Kuvert GmbH in Gersthofen",
+            "Berufserfahrung": "4 Jahre Maschinenführer an einer Halm Envelope Master 4000 4-Farben, W+D 214/224 4-Farben und Halm Jet Plus XL 2-Farben",
+            "Besondere Kenntnisse": [
+                "Fundierte Kenntnisse im Mailingbereich",
+                "Gute Microsoft Office und Adobe CS-Kenntnisse",
+                "Qualitätsmanagementbeauftragter (QMB)",
+                "Seminar bei der Fogra",
+                "Englischzertifkat A2"
+            ],
+            "Seminararbeit": "Elektrofotografischer Digitaldruck - Aktueller Stand, Einsatzmöglichkeiten und aktuelle Entwicklungen",
+            "Fach": [
+                "Arbeitssicherheit",
+                "Drucktechnik 2 (PSO Zertifizierung)",
+                "Marketing",
+                "Mediendesign 2 (Broschüre)",
+                "Medienrecht",
+                "Seminararbeit",
+                "Qualitätsmanagment"
+            ]
+        },
+        {
+            "Name": "Jörg Prügel",
+            "Geburtstag": "13.03.1987",
+            "Beruf": "Offsetdrucker",
+            "Telefon": "0151 14309275",
+            "EMail": "joerg-pruegel@t-online.de",
+            "Wohnort": "86657 Bissingen",
+            "Ausbildung": "3 Jahre Ausbildung zum Offsetdrucker bei Ludwig Auer GmbH in Donauwörth",
+            "Berufserfahrung": "5 Jahre Maschinenführer an einer Heidelberger GTO 1-Farben, Speedmaster SM 52 2-Farben, Speedmaster CD 74 5-Farben und Speedmaster XL 106 8-Farben mit Lackwerk und Inline-Stanze; 1,5 Jahre Maschinenhelfer an einer KBA Rapida 164 bis zu 8-Farben; 0,5 Jahre Maschinenführer an einer Müller Matini Ableimmaschine und einer Sigloch Ableimmaschine",
+            "Besondere Kenntnisse": [
+                "Praktische Erfahrung im Bedrucken von metalisiertem Papier und transparenter Folie",
+                "gute Microsoft Office- und Adobe CS-Kenntnisse",
+                "Ausbildungsberechtigung",
+                "Qualitätsmanagementbeauftragter (QMB)",
+                "Seminar bei der Fogra"
+            ],
+            "Fach": [
+                "Arbeitssicherheit",
+                "Ausbilderschein",
+                "Drucktechnik 2 (PSO Zertifizierung)",
+                "Mathematik 2 (Fachhochschulreife)",
+                "Mediendesign 2 (Broschüre)",
+                "Medienrecht",
+                "Qualitätsmanagment"
+            ]
+        },
+        {
+            "Name": "Kaj Simon",
+            "Geburtstag": "03.08.1990",
+            "Beruf": "Flexodrucker",
+            "Telefon": "0175 2430060",
+            "EMail": "kaj_simon@web.de",
+            "Wohnort": "80807 München",
+            "Ausbildung": "3 Jahre Ausbildung zum Flexodrucker bei Gebr. BREMBERGER GmbH in Unterschleißheim",
+            "Berufserfahrung": "Flexodruck: Uteco 8 Farben, SMB 8 Farben, Nielpeter F3A 6 Farben mit Stanze Pharmabranche + Automotive; Siebdruck: 12 Farben mit zwei Stanzen",
+            "Besondere Kenntnisse": [
+                "Microsoft Office-Kenntnisse",
+                "Führescheinklasse BE",
+                "Finnisch in Wort",
+                "Englischzertifikat A2",
+                "Ausbildungsberechtigung",
+                "Qualitätsmanagementbeauftragter (QMB)",
+                "Seminar bei der Fogra"
+            ],
+            "Fach": [
+                "Arbeitssicherheit",
+                "Ausbilderschein",
+                "Marketing",
+                "Medienrecht",
+                "Qualitätsmanagment"
+            ]
+        },
+        {
+            "Name": "Peter Voggenauer",
+            "Geburtstag": "09.09.1990",
+            "Beruf": "Offsetdrucker",
+            "Telefon": "0176 97670969",
+            "EMail": "p.voggenauer@freenet.de",
+            "Wohnort": "83112 Frasdorf",
+            "Ausbildung": "3 Jahre Ausbildung zum Offsetdrucker bei Rieder-Druckservice GmbH in Prien am Chiemsee",
+            "Berufserfahrung": "3 Jahre Maschinenführer an einer Heidelberger GTO 1- und 4-Farben mit Perforierwerk und einer manoland 205 5-Farben",
+            "Besondere Kenntnisse": [
+                "gute Druckweiterverarbeitungskenntnisse (Schneiden, Falzen und Sammelheften)",
+                "Stempelherstellung",
+                "Microsoft Office- und Adobe CS-Kenntnisse",
+                "Englischzertifikat A2",
+                "Ausbildungsberechtigung",
+                "Qualitätsmanagementbeauftragter (QMB)",
+                "Seminar bei der Fogra"
+            ],
+            "Fach": [
+                "Arbeitssicherheit",
+                "Ausbilderschein",
+                "Drucktechnik 2 (PSO Zertifizierung)",
+                "Marketing",
+                "Mathematik 2 (Fachhochschulreife)",
+                "Mediendesign 2 (Broschüre)",
+                "Medienrecht",
+                "Qualitätsmanagment"
+            ]
+        },
+        {
+            "Name": "Alexander Zehetmair",
+            "Geburtstag": "20.02.1992",
+            "Beruf": "Offsetdrucker",
+            "Telefon": "0171 2384216",
+            "EMail": "a.zehetmair@web.de",
+            "Wohnort": "83734 Hausham",
+            "Ausbildung": "3 Jahre Ausbildung zum Offsetdrucker bei Kroha GmbH in Miesbach",
+            "Berufserfahrung": "2 Jahre Maschinenführer an einer KBA Rapida 106 6-Farben mit Lackwerk",
+            "Besondere Kenntnisse": [
+                "Microsoft Office-Kenntnisse",
+                "konversationssicheres Englisch",
+                "Englischzertifikat A2",
+                "Ausbildungsberechtigung",
+                "Qualitätsmanagementbeauftragter (QMB)",
+                "Seminar bei der Fogra"
+            ],
+            "Fach": [
+                "Arbeitssicherheit",
+                "Ausbilderschein",
+                "Drucktechnik 2 (PSO Zertifizierung)",
+                "Marketing",
+                "Mathematik 2 (Fachhochschulreife)",
+                "Medienrecht",
+                "Qualitätsmanagment"
+            ]
+        },
+        {
+            "Name": "Lisa Zollner",
+            "Geburtstag": "Lisa Zollner",
+            "Beruf": "Offsetdrucker",
+            "Telefon": "0173 9001482",
+            "EMail": "lisa_zollner@web.de",
+            "Wohnort": "83730 Fischbachau",
+            "Ausbildung": "3 Jahre Ausbildung zur Offsetdruckerin bei Mayr Miesbach GmbH",
+            "Berufserfahrung": "2 Jahre Maschinenführerin an einer manroland 700/5 mit Lackierwerk und Hybridtechnologie, manroland 700/8 8-Farben mit Wendung; Umfassende Kenntnisse an einer manroland Rollenoffset Rotoman 16 Seiten mit Perforier- und Stanzwerk",
+            "Seminararbeit": "Auraia DMS Rastertechnologie",
+            "Besondere Kenntnisse": [
+                "Microsoft Office- und Adobe CS Kenntnisse",
+                "sehr gute Druckweiterverarbeitungskenntnisse",
+                "Englischzertifkat A2",
+                "Ausbildungsberechtigung",
+                "Qualitätsmanagementbeauftragte (QMB)",
+                "Seminar bei der Fogra"
+            ],
+            "Fach": [
+                "Arbeitssicherheit",
+                "Ausbilderschein",
+                "Druckweiterverarbeitung 2",
+                "Mediendesign 2 (Broschüre)",
+                "Medienrecht",
+                "Seminararbeit",
+                "Qualitätsmanagment"
+            ]
+        }
+    ]
+}
