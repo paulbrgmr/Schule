@@ -37,6 +37,11 @@ body {
                     color: $blue;
                 }
             }
+            &:first-child, &:last-child {
+                i {
+                    font-size: 20px;
+                }
+            }
         }
     }
 }
@@ -44,4 +49,13 @@ body {
 #schuelerList {
     list-style-type: none;
     padding-left: 0;
+}
+
+dl {
+    dt {
+        font-weight: bold;
+    }
+    dd {
+        margin-left: 0;
+    }
 }

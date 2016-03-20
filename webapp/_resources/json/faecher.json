@@ -1,37 +1,114 @@
 {
     "faecher": [
         {
-            "Projektmanagement 1": "Projektplanung, Contolling",
-            "Chemie 1": "Grundaufbau der Elemente, Angewandte Chemie",
-            "Physik 1": "Grundlagen der Mechanik, Angewandte Physik",
-            "Wirtschafts- und Sozialkunde 1": "Wirtschaftssysteme und -politik",
-            "Deutsch 1": "Geschäftskorrespondenz, Kommunikation",
-            "Drucktechnik I 1": "Vertiefte Einblicke in den Offset-, Flexo-, Tief- und Digitaldruck",
-            "Druckweiterverarbeitung I 1": "Grundlagen zu Schneiden, Falzen, Sammeln und  Zusammentragen, Klebebindung",
-            "Informationstechnik 1": "Aufbau und Funktion eines Computers, Netzwerktechnik",
-            "Mediendesign 1": "Grundlagen der Gestaltung, Typografie, Adobe Indesign",
-            "Englisch 1, 2": "Bearbeitung von Fachtexten in Wort und Schrift, Technisches Englisch",
-            "Medienorientierte Datenverarbeitung 1, 2": "Bilddaten, Bildreproduktion, Bildbearbeitung, Rasterung, Farbseparation, Farbmetrik, Colormanagement, JDF und Ctp",
-            "Betriebliches Rechnungswesen 1, 2": "Finanzbuchhaltung, Kalkulation für Druckvorstufe, Druck und Druckweiterverarbeitung, Kosten- und Leistungsrechnen",
-            "Personalmanagement 2": "Personalführung, Motivationstechniken, Führen von Gruppen",
-            "Druckbezogene Informationstechnik 2": "Datenbanken, Variabler Datendruck, Auszeichnungssprachen (HTML, XML)",
-            "Datenverarbeitung Druck 2": "Digitale Bilderfassungssysteme, Grafikformate",
-            "1": "Fächer im 1. Jahr",
-            "2": "Fächer im 2. Jahr"
+            "Fachname": "Projektmanagement 1",
+            "Fachbeschreibung": "Projektplanung, Contolling"
+        },
+        {
+            "Fachname": "Chemie 1",
+            "Fachbeschreibung": "Grundaufbau der Elemente, Angewandte Chemie"
+        },
+        {
+            "Fachname": "Physik 1",
+            "Fachbeschreibung": "Grundlagen der Mechanik, Angewandte Physik"
+        },
+        {
+            "Fachname": "Wirtschafts- und Sozialkunde 1",
+            "Fachbeschreibung": "Wirtschaftssysteme und -politik"
+        },
+        {
+            "Fachname": "Deutsch 1",
+            "Fachbeschreibung": "Geschäftskorrespondenz, Kommunikation"
+        },
+        {
+            "Fachname": "Drucktechnik I 1",
+            "Fachbeschreibung": "Vertiefte Einblicke in den Offset-, Flexo-, Tief- und Digitaldruck"
+        },
+        {
+            "Fachname": "Druckweiterverarbeitung I 1",
+            "Fachbeschreibung": "Grundlagen zu Schneiden, Falzen, Sammeln und  Zusammentragen, Klebebindung"
+        },
+        {
+            "Fachname": "Informationstechnik 1",
+            "Fachbeschreibung": "Aufbau und Funktion eines Computers, Netzwerktechnik"
+        },
+        {
+            "Fachname": "Mediendesign 1",
+            "Fachbeschreibung": "Grundlagen der Gestaltung, Typografie, Adobe Indesign"
+        },
+        {
+            "Fachname": "Englisch 1, 2",
+            "Fachbeschreibung": "Bearbeitung von Fachtexten in Wort und Schrift, Technisches Englisch"
+        },
+        {
+            "Fachname": "Medienorientierte Datenverarbeitung 1, 2",
+            "Fachbeschreibung": "Bilddaten, Bildreproduktion, Bildbearbeitung, Rasterung, Farbseparation, Farbmetrik, Colormanagement, JDF und Ctp"
+        },
+        {
+            "Fachname": "Betriebliches Rechnungswesen 1, 2",
+            "Fachbeschreibung": "Finanzbuchhaltung, Kalkulation für Druckvorstufe, Druck und Druckweiterverarbeitung, Kosten- und Leistungsrechnen"
+        },
+        {
+            "Fachname": "Personalmanagement 2",
+            "Fachbeschreibung": "Personalführung, Motivationstechniken, Führen von Gruppen"
+        },
+        {
+            "Fachname": "Druckbezogene Informationstechnik 2",
+            "Fachbeschreibung": "Datenbanken, Variabler Datendruck, Auszeichnungssprachen (HTML, XML)"
+        },
+        {
+            "Fachname": "Datenverarbeitung Druck 2",
+            "Fachbeschreibung": "Digitale Bilderfassungssysteme, Grafikformate"
+        },
+        {
+            "Fachname": "1",
+            "Fachbeschreibung": "Fächer im 1. Jahr"
+        },
+        {
+            "Fachname": "2",
+            "Fachbeschreibung": "Fächer im 2. Jahr"
         }
     ],
     "wahlmodule": [
         {
-            "Mediendesign II": "Gestaltung von Broschüre und Internetauftritt",
-            "Drucktechnik II": "PSO-Zertifizierung in Theorie und Praxis, Druckkontrollmittel, Messgeräte",
-            "Druckweiterverarbeitung II": "Sonderfertigungstechniken wie Prägen, Stanzen etc.",
-            "Marketing": "Marktanalyse, Marktstrategien, Marketinginstrumente",
-            "Arbeitssicherheit": "Unfallverhütungsvorschriften am Arbeitsplatz",
-            "Medienrecht": "Urheberrechtsgesetz, Grundgesetz",
-            "Ausbildung der Ausbilder": "Ausbildungsberechtigung (IHK)",
-            "Qualitätsmanagement": "DIN EN ISO 9000-Normfamilie, QM-Tools, Qualitätsmanagementsysteme nach DIN EN ISO 9001 - 2015, Fehlerverhütung und Prüfmethoden",
-            "Mathematik II": "Erlangen der Fachhochschulreife",
-            "Seminararbeit": "wissenschaftliche Ausarbeitung eines fachlichen Themas"
+            "Modulname": "Mediendesign II",
+            "Modulbeschreibung": "Gestaltung von Broschüre und Internetauftritt"
+        },
+        {
+            "Modulname": "Drucktechnik II",
+            "Modulbeschreibung": "PSO-Zertifizierung in Theorie und Praxis, Druckkontrollmittel, Messgeräte"
+        },
+        {
+            "Modulname": "Druckweiterverarbeitung II",
+            "Modulbeschreibung": "Sonderfertigungstechniken wie Prägen, Stanzen etc."
+        },
+        {
+            "Modulname": "Marketing",
+            "Modulbeschreibung": "Marktanalyse, Marktstrategien, Marketinginstrumente"
+        },
+        {
+            "Modulname": "Arbeitssicherheit",
+            "Modulbeschreibung": "Unfallverhütungsvorschriften am Arbeitsplatz"
+        },
+        {
+            "Modulname": "Medienrecht",
+            "Modulbeschreibung": "Urheberrechtsgesetz, Grundgesetz"
+        },
+        {
+            "Modulname": "Ausbildung der Ausbilder",
+            "Modulbeschreibung": "Ausbildungsberechtigung (IHK)"
+        },
+        {
+            "Modulname": "Qualitätsmanagement",
+            "Modulbeschreibung": "DIN EN ISO 9000-Normfamilie, QM-Tools, Qualitätsmanagementsysteme nach DIN EN ISO 9001 - 2015, Fehlerverhütung und Prüfmethoden"
+        },
+        {
+            "Modulname": "Mathematik II",
+            "Modulbeschreibung": "Erlangen der Fachhochschulreife"
+        },
+        {
+            "Modulname": "Seminararbeit",
+            "Modulbeschreibung": "Wissenschaftliche Ausarbeitung eines fachlichen Themas"
         }
     ]
 }
