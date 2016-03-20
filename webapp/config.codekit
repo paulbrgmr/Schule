@@ -40,6 +40,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_resources\/img\/bsz-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5997,
+		"inputAbbreviatedPath": "\/_resources\/img\/bsz-logo.png",
+		"outputAbbreviatedPath": "\/_resources\/img\/bsz-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_resources\/js\/detail.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -318,6 +329,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/startscreen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3796,
+		"inputAbbreviatedPath": "\/startscreen.png",
+		"outputAbbreviatedPath": "\/startscreen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [
