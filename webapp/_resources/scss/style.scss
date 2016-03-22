@@ -94,11 +94,14 @@ body {
             box-shadow: none;
             padding-left: 0;
             padding-right: 0;
+            position: relative;
             &:after {
                 @include fa(20px);
                 content: "\f054";
                 background-image: none;
                 background-color: transparent;
+                text-align: right;
+                right: 0;
             }
             .ui-btn-active {
                 color: $gray-dark;
@@ -174,8 +177,6 @@ body {
             top: -170px;
             left: -50%;
             margin-left: 160px;
-            // border-radius: 100%;
-            // clip-path: circle(50% at 50% 50%);
             clip-path: circle(35% at 50% 35%);
             transform: scale(.35);
         }
