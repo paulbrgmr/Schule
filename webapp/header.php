@@ -8,10 +8,19 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+        <!-- OFFLINE 
+        - DELETE BOFORE LIVE -->
+        <link rel="stylesheet" type="text/css" href="_resources/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="_resources/css/jquery.mobile.min.css">
+        <link rel="stylesheet" type="text/css" href="_resources/css/style.min.css">
+        <script type="text/javascript" src="_resources/js/jquery.min.js"></script>
+        <script type="text/javascript" src="_resources/js/jquery.mobile.min.js"></script>
+        <!-- END OFFLINE -->
+        <!-- FOR ONLINE USE -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+        <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css"> -->
         <!-- <link href="_resources/css/jquery.mobile.min.css" rel="stylesheet"> -->
-        <link href="_resources/css/style.min.css" rel="stylesheet">
+        <!-- <link href="_resources/css/style.min.css" rel="stylesheet"> -->
         
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

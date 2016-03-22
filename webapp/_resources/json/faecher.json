@@ -1,71 +1,71 @@
 {
     "faecher": [
         {
-            "Fachname": "Projektmanagement 1",
+            "Fachname": "Projektmanagement (1)",
             "Fachbeschreibung": "Projektplanung, Contolling"
         },
         {
-            "Fachname": "Chemie 1",
+            "Fachname": "Chemie (1)",
             "Fachbeschreibung": "Grundaufbau der Elemente, Angewandte Chemie"
         },
         {
-            "Fachname": "Physik 1",
+            "Fachname": "Physik (1)",
             "Fachbeschreibung": "Grundlagen der Mechanik, Angewandte Physik"
         },
         {
-            "Fachname": "Wirtschafts- und Sozialkunde 1",
+            "Fachname": "Wirtschafts- und Sozialkunde (1)",
             "Fachbeschreibung": "Wirtschaftssysteme und -politik"
         },
         {
-            "Fachname": "Deutsch 1",
+            "Fachname": "Deutsch (1)",
             "Fachbeschreibung": "Geschäftskorrespondenz, Kommunikation"
         },
         {
-            "Fachname": "Drucktechnik I 1",
+            "Fachname": "Drucktechnik I (1)",
             "Fachbeschreibung": "Vertiefte Einblicke in den Offset-, Flexo-, Tief- und Digitaldruck"
         },
         {
-            "Fachname": "Druckweiterverarbeitung I 1",
+            "Fachname": "Druckweiterverarbeitung I (1)",
             "Fachbeschreibung": "Grundlagen zu Schneiden, Falzen, Sammeln und  Zusammentragen, Klebebindung"
         },
         {
-            "Fachname": "Informationstechnik 1",
+            "Fachname": "Informationstechnik (1)",
             "Fachbeschreibung": "Aufbau und Funktion eines Computers, Netzwerktechnik"
         },
         {
-            "Fachname": "Mediendesign 1",
+            "Fachname": "Mediendesign (1)",
             "Fachbeschreibung": "Grundlagen der Gestaltung, Typografie, Adobe Indesign"
         },
         {
-            "Fachname": "Englisch 1, 2",
+            "Fachname": "Englisch (1, 2)",
             "Fachbeschreibung": "Bearbeitung von Fachtexten in Wort und Schrift, Technisches Englisch"
         },
         {
-            "Fachname": "Medienorientierte Datenverarbeitung 1, 2",
+            "Fachname": "Medienorientierte Datenverarbeitung (1, 2)",
             "Fachbeschreibung": "Bilddaten, Bildreproduktion, Bildbearbeitung, Rasterung, Farbseparation, Farbmetrik, Colormanagement, JDF und Ctp"
         },
         {
-            "Fachname": "Betriebliches Rechnungswesen 1, 2",
+            "Fachname": "Betriebliches Rechnungswesen (1, 2)",
             "Fachbeschreibung": "Finanzbuchhaltung, Kalkulation für Druckvorstufe, Druck und Druckweiterverarbeitung, Kosten- und Leistungsrechnen"
         },
         {
-            "Fachname": "Personalmanagement 2",
+            "Fachname": "Personalmanagement (2)",
             "Fachbeschreibung": "Personalführung, Motivationstechniken, Führen von Gruppen"
         },
         {
-            "Fachname": "Druckbezogene Informationstechnik 2",
+            "Fachname": "Druckbezogene Informationstechnik (2)",
             "Fachbeschreibung": "Datenbanken, Variabler Datendruck, Auszeichnungssprachen (HTML, XML)"
         },
         {
-            "Fachname": "Datenverarbeitung Druck 2",
+            "Fachname": "Datenverarbeitung Druck (2)",
             "Fachbeschreibung": "Digitale Bilderfassungssysteme, Grafikformate"
         },
         {
-            "Fachname": "1",
+            "Fachname": "(1)",
             "Fachbeschreibung": "Fächer im 1. Jahr"
         },
         {
-            "Fachname": "2",
+            "Fachname": "(2)",
             "Fachbeschreibung": "Fächer im 2. Jahr"
         }
     ],

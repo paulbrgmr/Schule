@@ -16,7 +16,7 @@ $(function() {
             // schueler Liste
             var schuelerNameClear = schueler.Name.split(' ').reverse().join('-');
             $('<li class="' + schuelerNameClear + '">'
-                +'<a href="detail.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r" data-transition="slide" onClick="javascript:sessionStorage.schueler=\'' + schuelerNameClear + '\';">'
+                +'<a href="detail.php" class="ui-btn ui-btn-icon-right ui-icon-carat-r" data-transition="slide" onClick="javascript:sessionStorage.schueler=\'' + schuelerNameClear + '\';">'
                 +'<div>'+schueler.Name+'</div>'
                 +'<div>'+schueler.Beruf+'</div>'
                 +'<div>'+schueler.Wohnort+'</div>' + '</a></li>')

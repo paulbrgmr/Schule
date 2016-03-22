@@ -40,13 +40,90 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_resources\/img\/bsz-logo.png": {
+	"\/_resources\/img\/_bsz-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5997,
-		"inputAbbreviatedPath": "\/_resources\/img\/bsz-logo.png",
-		"outputAbbreviatedPath": "\/_resources\/img\/bsz-logo.png",
+		"inputAbbreviatedPath": "\/_resources\/img\/_bsz-logo.png",
+		"outputAbbreviatedPath": "\/_resources\/img\/_bsz-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/alexander-zehetmair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.11831e+07,
+		"inputAbbreviatedPath": "\/_resources\/img\/alexander-zehetmair.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/alexander-zehetmair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/andreas-birner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.26977e+07,
+		"inputAbbreviatedPath": "\/_resources\/img\/andreas-birner.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/andreas-birner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/joerg-pruegel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 183650,
+		"inputAbbreviatedPath": "\/_resources\/img\/joerg-pruegel.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/joerg-pruegel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/kaj-simon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 183799,
+		"inputAbbreviatedPath": "\/_resources\/img\/kaj-simon.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/kaj-simon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/lisa-zollner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.34828e+07,
+		"inputAbbreviatedPath": "\/_resources\/img\/lisa-zollner.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/lisa-zollner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/peter-voggenauer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.42227e+07,
+		"inputAbbreviatedPath": "\/_resources\/img\/peter-voggenauer.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/peter-voggenauer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/waldemar-meier.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.68264e+07,
+		"inputAbbreviatedPath": "\/_resources\/img\/waldemar-meier.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/waldemar-meier.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -72,17 +149,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/_resources\/js\/index.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_resources\/js\/index.js",
-		"outputAbbreviatedPath": "\/_resources\/js\/index.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 0
 		},
 	"\/_resources\/js\/index.min.js": {
 		"fileType": 64,
@@ -128,12 +194,54 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_resources\/js\/jquery.min.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_resources\/js\/jquery.min.min.js",
+		"outputAbbreviatedPath": "\/_resources\/js\/jquery.min.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_resources\/js\/jquery.mobile.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_resources\/js\/jquery.mobile.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_resources\/js\/jquery.mobile.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_resources\/js\/jquery.mobile.min.js",
 		"outputAbbreviatedPath": "\/_resources\/js\/jquery.mobile.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_resources\/js\/list.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_resources\/js\/list.js",
+		"outputAbbreviatedPath": "\/_resources\/js\/list.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/_resources\/js\/list.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_resources\/js\/list.min.js",
+		"outputAbbreviatedPath": "\/_resources\/js\/list.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -237,11 +345,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/detail.html": {
+	"\/detail.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/detail.html",
+		"inputAbbreviatedPath": "\/detail.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -255,11 +363,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/head.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/head.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/header.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -273,29 +399,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/info.html": {
+	"\/info.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/info.html",
+		"inputAbbreviatedPath": "\/info.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/list.html": {
+	"\/list.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/list.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/navbar.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/navbar.php",
+		"inputAbbreviatedPath": "\/list.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

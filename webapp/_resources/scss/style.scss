@@ -4,17 +4,31 @@ $blue: #00A4E4;
 $gray-dark: #212121;
 $gray-light: #EAEAEA;
 $white: #fff;
-$text-color: $white;
+
+@mixin fa($font-size) {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: $font-size;
+}
+
+*, .ui-shadow {
+    text-shadow: none;
+    box-shadow: none;
+}
 
 body {
     margin-bottom: 90px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#detail, #list {
+    background-color: $white;
 }
 
 #navbar {
     background-color: $white;
-    // position: fixed;
-    // background-color: $white;
-    // bottom: 0;
     padding-top: 15px;
     padding-bottom: 15px;
     ul {
@@ -46,7 +60,140 @@ body {
     }
 }
 
+.active {
+    color: $blue;
+}
+
 #schuelerList {
+    list-style-type: none;
+    padding-left: 0;
+    box-shadow: none;
+    li {
+        a {
+            background-color: $white;
+            border-color: transparent;
+            box-shadow: none;
+            padding-left: 0;
+            padding-right: 0;
+            &:after {
+                @include fa(20px);
+                content: "\f054";
+                background-image: none;
+                background-color: transparent;
+            }
+            .ui-btn-active {
+                color: $gray-dark;
+            }
+        }
+    }
+}
+
+#list-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ui-content {
+    padding: 0;
+}
+
+[data-role="header"] {
+    &.header-bar {
+        background-color: $blue;
+        border: none;
+        text-shadow: none;
+        text-transform: uppercase;
+        h1 {
+            font-size: 18px;
+            margin: 0 auto;
+            $h1-height: 23px;
+            $header-bar-height: 60px;
+            $padding-header-bar: $header-bar-height - $h1-height;
+            padding: $padding-header-bar / 2.5;
+            color: $white;
+        }
+        a {
+            background-color: transparent;
+            border: none;
+            margin-top: 8px;
+        }
+    }
+}
+
+#portrait-wrapper {
+    position: relative;
+    #portrait-img-bg {
+        img {
+            position: absolute;
+            top: -50%;
+            z-index: -5;
+            clip-path: inset(0% 0% 45% 0%);
+        }
+            clip-path: inset(0% 0% 45% 0%);
+        filter: blur(10px);
+        margin-left: -10px;
+        margin-right: -10px;
+        overflow: hidden;
+        height: 220px;
+    }
+    #portrait-border {
+        height: 132px;
+        width: 132px;
+        display: inline-block;
+        border-radius: 100%;
+        border: 2px solid #fff;
+        position: absolute;
+        top: 43px;
+        left: 50%;
+        margin-left: -73px;
+        display: none;
+    }
+    #portrait-img {
+        img {
+            position: absolute;
+            top: -170px;
+            left: -50%;
+            margin-left: 160px;
+            // border-radius: 100%;
+            // clip-path: circle(50% at 50% 50%);
+            clip-path: circle(35% at 50% 35%);
+            transform: scale(.35);
+        }
+    }
+}
+
+.ui-shadow-inset {
+    box-shadow: none;
+}
+
+// .ui-mobile .ui-page {
+//     min-height: calc(100vh - 200px);
+// }
+
+// Every id that ends with '-content'
+[id$="-content"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#detail-content-nav {
+    padding-left: 0;
+    width: 100%;
+    border-bottom: 1px solid $gray-light;
+    display: inline-block;
+    li {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 25%;
+        float: left;
+        text-align: center;
+        display: inline-block;
+        i {
+            font-size: 18px;
+        }
+    }
+}
+#schueler-faecher {
     list-style-type: none;
     padding-left: 0;
 }
