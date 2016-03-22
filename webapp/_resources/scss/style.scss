@@ -141,6 +141,7 @@ body {
 
 #portrait-wrapper {
     position: relative;
+    z-index: 1;
     #portrait-img-bg {
         img {
             position: absolute;
@@ -193,6 +194,8 @@ body {
 [id$="-content"] {
     padding-left: 15px;
     padding-right: 15px;
+    z-index: 99;
+    position: relative;
 }
 
 #detail-content-nav {
@@ -200,6 +203,8 @@ body {
     width: 100%;
     border-bottom: 1px solid $gray-light;
     display: inline-block;
+    z-index: 99;
+    position: relative;
     li {
         padding-top: 15px;
         padding-bottom: 15px;
