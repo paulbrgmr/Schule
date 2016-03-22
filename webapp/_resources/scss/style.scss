@@ -147,6 +147,7 @@ body {
             position: absolute;
             top: -50%;
             z-index: -5;
+            -webkit-clip-path: inset(0% 0% 0% 0%);
             clip-path: inset(0% 0% 45% 0%);
         }
         clip-path: inset(0% 0% 45% 0%);
