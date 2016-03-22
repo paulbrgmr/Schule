@@ -194,17 +194,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_resources\/js\/jquery.min.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_resources\/js\/jquery.min.min.js",
-		"outputAbbreviatedPath": "\/_resources\/js\/jquery.min.min.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_resources\/js\/jquery.mobile.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -345,6 +334,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/bsz-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7280,
+		"inputAbbreviatedPath": "\/bsz-icon.png",
+		"outputAbbreviatedPath": "\/bsz-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/detail.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -368,15 +368,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/head.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/header.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
