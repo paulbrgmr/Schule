@@ -11,6 +11,7 @@ $(function() {
                 $('<h2>'
                     + schueler.Name
                     + '</h2>'
+                    + '<h4>Geburtstag:</h4>'
                     + '<p>'
                     + schueler.Geburtstag
                     + '</p>'

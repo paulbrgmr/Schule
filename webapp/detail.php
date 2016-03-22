@@ -41,17 +41,15 @@
                 <ul id="schueler-faecher"></ul>
             </div>
             <div id="detail-phone-content">
-                <h4>Erreichbar unter</h4>
+                <h4>Erreichbar unter:</h4>
                 <div id="schueler-phone"></div>
             </div>
             <div id="detail-maps-content">
-                <h4>Wohnort</h4>
-                <div id="schueler-maps">
-                    <div id="map"></div>
-                </div>
+                <h4>Wohnort:</h4>
+                <div id="schueler-maps"></div>
             </div>
             <div id="detail-contact-content">
-                <h4>E-Mail-Adresse</h4>
+                <h4>E-Mail-Adresse:</h4>
                 <div id="schueler-contact"></div>
             </div>
         </div>
