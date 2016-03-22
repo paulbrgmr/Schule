@@ -10,8 +10,9 @@
         <div data-role="header" data-position="fixed" data-tap-toggle="false" class="header-bar"> 
             <h1>Startseite</h1>
         </div>
-        <div data-role="content" id="list-content">
-            <h1>Startseite</h1>
+        <div data-role="content" id="index-content">
+            <img src="_resources/img/muenchen-wappen.svg">
+            <h1>Druck- und Medientechnicker/in</h1>
         </div>
         <nav id="navbar" data-role="footer" data-id="footernav" data-tap-toggle="true" data-position="fixed">
             <ul>
