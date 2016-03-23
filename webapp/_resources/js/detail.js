@@ -7,7 +7,13 @@ $(function() {
             var schuelerNameClear = schueler.Name.split(' ').reverse().join('-');
             if(schuelerSession == schuelerNameClear){
                 $('#schueler-name').text(schueler.Name);
-                $('<img src="' + schueler.Bild + '">').appendTo($('#portrait-img, #portrait-img-bg'));
+                if (schueler.Bild != '') {
+                    $('<img src="' + schueler.Bild + '">').appendTo($('#portrait-img, #portrait-img-bg'));
+                }
+                else {
+                    $('#portrait-img, #portrait-img-bg').remove();
+                    $('#detail-content-nav').addClass('no-img');
+                }
                 $('<h2>'
                     + schueler.Name
                     + '</h2>'
