@@ -73,6 +73,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_resources\/img\/Däumling-Philip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100338,
+		"inputAbbreviatedPath": "\/_resources\/img\/Däumling-Philip.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Däumling-Philip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/Fischer_Patrick.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105710,
+		"inputAbbreviatedPath": "\/_resources\/img\/Fischer_Patrick.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Fischer_Patrick.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/Grosch_Timo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107973,
+		"inputAbbreviatedPath": "\/_resources\/img\/Grosch_Timo.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Grosch_Timo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/Heimburger_Kevin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110918,
+		"inputAbbreviatedPath": "\/_resources\/img\/Heimburger_Kevin.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Heimburger_Kevin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_resources\/img\/joerg-pruegel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -95,6 +139,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_resources\/img\/Krebs_Benjamin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93566,
+		"inputAbbreviatedPath": "\/_resources\/img\/Krebs_Benjamin.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Krebs_Benjamin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/Kuateng_Dustin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156010,
+		"inputAbbreviatedPath": "\/_resources\/img\/Kuateng_Dustin.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Kuateng_Dustin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/Lingner_Marco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109511,
+		"inputAbbreviatedPath": "\/_resources\/img\/Lingner_Marco.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Lingner_Marco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_resources\/img\/lisa-zollner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -102,6 +179,17 @@
 		"initialSize": 1.34828e+07,
 		"inputAbbreviatedPath": "\/_resources\/img\/lisa-zollner.jpg",
 		"outputAbbreviatedPath": "\/_resources\/img\/lisa-zollner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/Marx_Alexander.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96844,
+		"inputAbbreviatedPath": "\/_resources\/img\/Marx_Alexander.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Marx_Alexander.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -117,6 +205,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_resources\/img\/Rauschenberg_Alexander.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122804,
+		"inputAbbreviatedPath": "\/_resources\/img\/Rauschenberg_Alexander.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Rauschenberg_Alexander.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/Schenk-Georg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92360,
+		"inputAbbreviatedPath": "\/_resources\/img\/Schenk-Georg.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Schenk-Georg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_resources\/img\/waldemar-meier.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -124,6 +234,28 @@
 		"initialSize": 1.68264e+07,
 		"inputAbbreviatedPath": "\/_resources\/img\/waldemar-meier.jpg",
 		"outputAbbreviatedPath": "\/_resources\/img\/waldemar-meier.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/Wölker_Oliver.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114089,
+		"inputAbbreviatedPath": "\/_resources\/img\/Wölker_Oliver.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Wölker_Oliver.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/Yilmaz_Hazim.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86966,
+		"inputAbbreviatedPath": "\/_resources\/img\/Yilmaz_Hazim.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/Yilmaz_Hazim.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -280,17 +412,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/_resources\/json\/gerichte.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_resources\/json\/gerichte.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/_resources\/json\/gerichte-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/_resources\/json\/schueler.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -363,20 +484,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/google6b8bbbd488e3d92d.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/google6b8bbbd488e3d92d.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/head.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/head.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/index_.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index_.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
