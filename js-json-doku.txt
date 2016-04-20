@@ -1,0 +1,42 @@
+<!-- Ersetze den Pfad in src="" durch den Pfad zu deiner JS Datei -->
+<script type="text/javascript" src="_resources/js/main.js"></script>
+
+Mit $.ajax lädst du den Inhalt aus der Datei, die du in url angibst.
+Alternativ geht statt ajax auf getJSON, das ist aber nicht so variabel, da bei getJSON ausschließlich JSON Dateien akzeptiert werden.
+.done wird ausgeführt, sobald jQuery den kompletten Inhalt aus der url Datei geladen hat
+In data bei function(data) wird der Inhalt gespeichert
+Mit dem $.each rufst du eine Schleife auf
+Da sämtliche Daten der JSON Datei in data gespeichert wurden, kannst du mit data.schueler bestimmen, welches Element, in diesem Fall ein Array, durchsucht werden soll. Gäbe es in der Datei noch etwas das hieße lehrer, so könntest du mit data.lehrer alle Lehrer durchgehen
+In data.schueler stehen nun alle Schüler jeweils einzeln als object - zu erkennen durch []
+Mit dem i in function setzt du einen index. Der erste Schüler bekommt also im JS die Nummer 0, der zweite 1, der dritte 2 usw. Es fängt immer mit 0 an.
+Mit schueler in der function sagst du, wie du den Wert, den du aus dem data.schueler hast, abrufen willst.
+Willst du also aus deinem JSON jeden Namen erhalten schreibst du, wie unten, schueler.Name, beim Geburtstag wäre es schueler.Geburtstag
+Mit dem $('<li>' + schueler.Name + '</li>') erstellst du für jeden Namen ein <li></li> mit dem Namen drinnen. Mit dem + kannst du Werte, hier also die li-tags mit dem schueler.Name kombinieren.
+Mit dem appendTo sagt du, woran JS das gesamte Ergebnis, wenn es mit allen Schülern durch ist, dranhängen soll.
+In diesem Fall an den ul-tag mit der id list.
+
+$(function() {
+    $.ajax({
+        url: "_resources/json/schueler.json"
+    }).done(function(data) {
+        $.each(data.schueler, function(i, schueler) {
+            $('<li>' + schueler.Name + '</li><li>' + schueler.Geburtstag + '</li>').appendTo('#list');
+        })
+    });
+});
+
+<!-- WICHTIG: Hinter dem letzten Element darf niemals ein Komma stehen, sonst wird dir nichts ausgegeben -->
+{
+    "schueler": [
+        {
+            "Name": "Andreas Birner",
+            "Geburtstag": "18.05.1994"
+        }
+        {
+            "Name": "Josef Jäger",
+            "Geburtstag": "20.09.1988"
+        }
+    ]
+}
+
+<ul id="list"></ul>
