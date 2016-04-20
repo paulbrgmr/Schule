@@ -73,50 +73,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_resources\/img\/Däumling-Philip.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 100338,
-		"inputAbbreviatedPath": "\/_resources\/img\/Däumling-Philip.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Däumling-Philip.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_resources\/img\/Fischer_Patrick.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 105710,
-		"inputAbbreviatedPath": "\/_resources\/img\/Fischer_Patrick.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Fischer_Patrick.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_resources\/img\/Grosch_Timo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 107973,
-		"inputAbbreviatedPath": "\/_resources\/img\/Grosch_Timo.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Grosch_Timo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_resources\/img\/Heimburger_Kevin.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 110918,
-		"inputAbbreviatedPath": "\/_resources\/img\/Heimburger_Kevin.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Heimburger_Kevin.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_resources\/img\/joerg-pruegel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -139,39 +95,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_resources\/img\/Krebs_Benjamin.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 93566,
-		"inputAbbreviatedPath": "\/_resources\/img\/Krebs_Benjamin.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Krebs_Benjamin.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_resources\/img\/Kuateng_Dustin.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 156010,
-		"inputAbbreviatedPath": "\/_resources\/img\/Kuateng_Dustin.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Kuateng_Dustin.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_resources\/img\/Lingner_Marco.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 109511,
-		"inputAbbreviatedPath": "\/_resources\/img\/Lingner_Marco.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Lingner_Marco.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_resources\/img\/lisa-zollner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -183,13 +106,134 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_resources\/img\/Marx_Alexander.jpg": {
+	"\/_resources\/img\/papiertechniker\/Däumling-Philip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100338,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Däumling-Philip.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Däumling-Philip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Fischer_Patrick.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105710,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Fischer_Patrick.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Fischer_Patrick.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Grosch_Timo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107973,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Grosch_Timo.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Grosch_Timo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Heimburger_Kevin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110918,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Heimburger_Kevin.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Heimburger_Kevin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Krebs_Benjamin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93566,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Krebs_Benjamin.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Krebs_Benjamin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Kuateng_Dustin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156010,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Kuateng_Dustin.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Kuateng_Dustin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Lingner_Marco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109511,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Lingner_Marco.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Lingner_Marco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Marx_Alexander.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 96844,
-		"inputAbbreviatedPath": "\/_resources\/img\/Marx_Alexander.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Marx_Alexander.jpg",
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Marx_Alexander.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Marx_Alexander.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Rauschenberg_Alexander.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122804,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Rauschenberg_Alexander.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Rauschenberg_Alexander.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Schenk-Georg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92360,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Schenk-Georg.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Schenk-Georg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Wölker_Oliver.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114089,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Wölker_Oliver.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Wölker_Oliver.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_resources\/img\/papiertechniker\/Yilmaz_Hazim.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86966,
+		"inputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Yilmaz_Hazim.jpg",
+		"outputAbbreviatedPath": "\/_resources\/img\/papiertechniker\/Yilmaz_Hazim.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -205,28 +249,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_resources\/img\/Rauschenberg_Alexander.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 122804,
-		"inputAbbreviatedPath": "\/_resources\/img\/Rauschenberg_Alexander.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Rauschenberg_Alexander.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_resources\/img\/Schenk-Georg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 92360,
-		"inputAbbreviatedPath": "\/_resources\/img\/Schenk-Georg.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Schenk-Georg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_resources\/img\/waldemar-meier.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -234,28 +256,6 @@
 		"initialSize": 1.68264e+07,
 		"inputAbbreviatedPath": "\/_resources\/img\/waldemar-meier.jpg",
 		"outputAbbreviatedPath": "\/_resources\/img\/waldemar-meier.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_resources\/img\/Wölker_Oliver.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 114089,
-		"inputAbbreviatedPath": "\/_resources\/img\/Wölker_Oliver.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Wölker_Oliver.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_resources\/img\/Yilmaz_Hazim.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 86966,
-		"inputAbbreviatedPath": "\/_resources\/img\/Yilmaz_Hazim.jpg",
-		"outputAbbreviatedPath": "\/_resources\/img\/Yilmaz_Hazim.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
