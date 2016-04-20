@@ -16,7 +16,7 @@
             <h2>Module</h2>
             <div id="module-list"></div>
         </div>
-        <nav id="navbar" data-role="footer" data-id="footernav" data-tap-toggle="true" data-position="fixed">
+        <nav id="navbar">
             <ul>
                 <li>
                     <a href="index.php">

@@ -12,9 +12,9 @@
         </div>
         <div data-role="content" id="index-content">
             <img src="_resources/img/muenchen-wappen.svg">
-            <h1>Druck- und Medientechnicker/in</h1>
+            <h1>Druck- und Medientechniker/in</h1>
         </div>
-        <nav id="navbar" data-role="footer" data-id="footernav" data-tap-toggle="true" data-position="fixed">
+        <nav id="navbar">
             <ul>
                 <li class="active">
                     <a href="index.php">

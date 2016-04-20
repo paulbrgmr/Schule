@@ -55,6 +55,8 @@ body {
 
 #navbar {
     background-color: $white;
+    position: fixed;
+    border-top: 1px solid $gray-light;
     ul {
         padding-left: 0;
         width: 100vw;
@@ -104,6 +106,7 @@ body {
             padding-left: 0;
             padding-right: 0;
             position: relative;
+            font-weight: normal;
             &:after {
                 @include fa(20px);
                 content: "\f054";
@@ -165,41 +168,18 @@ body {
 #portrait-wrapper {
     position: relative;
     z-index: 1;
-    #portrait-img-bg {
+    #portrait-img {
         img {
             position: absolute;
-            top: -50%;
+            top: -40%;
             z-index: -5;
-            clip-path: inset(0% 0% 45% 0%);
+            clip-path: inset(0% 0% 50% 0%);
         }
         clip-path: inset(0% 0% 0% 0%);
-        filter: blur(10px);
         margin-left: -10px;
         margin-right: -10px;
         overflow: hidden;
         height: 220px;
-    }
-    #portrait-border {
-        height: 132px;
-        width: 132px;
-        display: inline-block;
-        border-radius: 100%;
-        border: 2px solid #fff;
-        position: absolute;
-        top: 43px;
-        left: 50%;
-        margin-left: -73px;
-        display: none;
-    }
-    #portrait-img {
-        img {
-            position: absolute;
-            top: -170px;
-            left: -50%;
-            margin-left: 160px;
-            clip-path: circle(35% at 50% 35%);
-            transform: scale(.35);
-        }
     }
 }
 

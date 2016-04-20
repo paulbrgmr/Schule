@@ -1,8 +1,17 @@
+// Key ansprechen um die Value zu erhalten (siehe object)
+// Achtung: zB array ist der key, und kann mehrere values haben, hier text, 1, true
+// integer ist der key, 123 die value
+// object ist der key, und alles darin enthaltene die value. Die value kann jedoch auch wieder key und value haben
+// a wäre also der key aus der value vom key "object" (Mindfuck :D)
+// array ansprechen um alle Werte aus array zu erhalten, kann nicht genauer definiert werden
+// object.key bzw object.a ansprechen um value bzw b zu erhalten
+// string ansprechen um Hello World zu erhalten
 {
+    "key": "value",
     "array": [
+        "text",
         1,
-        2,
-        3
+        true
     ],
     "boolean": true,
     "null": null,

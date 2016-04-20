@@ -1,11 +1,15 @@
 $(function() {
     $.ajax({
-        url: "_resources/json/schueler.json",
+        url: "_resources/json/schueler.json"
     }).done(function(data) {
         var schuelerSession = sessionStorage.schueler;
         $.each(data.schueler, function(i, schueler) {
-            var schuelerNameClear = schueler.Name.split(' ').reverse().join('-');
-            if(schuelerSession == schuelerNameClear){
+            var schuelerNameClear = schueler.Name.split(' ').join('-');
+            if (schuelerSession == schuelerNameClear) {
+                // setting the name as param executes infinite page reload
+                var pathname = window.location.pathname; // Returns path only
+                var schuelerUrl = pathname + '?name=' + schuelerNameClear;
+                // window.location.href = schuelerUrl;
                 $('#schueler-name').text(schueler.Name);
                 if (schueler.Bild != '') {
                     $('<img src="' + schueler.Bild + '">').appendTo($('#portrait-img, #portrait-img-bg'));
@@ -40,7 +44,7 @@ $(function() {
 
                 $('<p>Mobil: ' 
                     + '<a href="tel:'
-                    + schueler.Telefon.split(' ').join('/')
+                    + schueler.Telefon.split(' ').join('')
                     + '">'
                     + schueler.Telefon 
                     + '</a>'
@@ -49,12 +53,24 @@ $(function() {
 
                 $('<p>'
                     + schueler.Wohnort
-                    + '</p>'
-                    + '<div>'
-                    + schueler.Karte
-                    + '</div>')
+                    + '</p>')
                 .appendTo('#schueler-maps');
 
+                // Currently doesn't work
+                // var gMaps = schueler.Wohnort.split(' ').join('+');
+                // var mapsLat, mapsLng;
+                // $.ajax({
+                //     url: "https://maps.googleapis.com/maps/api/geocode/json?address=" + gMaps + "&key=AIzaSyAmJfTM5F0gNCWQEBd3dt3u0Eg3oDiWKwY"
+                // }).done(function(gMaps) {
+                //     $.each(gMaps.results[0].geometry, function(i, geometry) {
+                //         if (i == 'location') {
+                //             // console.log(geometry.lat, geometry.lng);
+                //             mapsLat = geometry.lat;
+                //             mapsLng = geometry.lng;
+                //         }
+                //     })
+                // });
+                
                 $('<p>'
                     + '<a href="mailto:'
                     + schueler.EMail
@@ -63,46 +79,29 @@ $(function() {
                     + '</a>'
                     + '</p>')
                 .appendTo('#schueler-contact');
-                // $('<img src="bilder/'+item.bild+'" class="schatten" /><h3>' + item.name + '</h3>' + '<p>' + item.untertitel + '</p>' + '<p>' + item.preis + '</p>').appendTo('#gericht-inhalt');
             }
         });
-        // $('#detail-description')
-        // $('#detail-phone')
-        // $('#detail-maps')
-        // $('#detail-contact')
         function showDetailTabs(tab) {
             $('#detail-content-nav li').each(function() {
                 $(this).removeClass('active');
             });
             $('#detail-' + tab).addClass('active');
             if (tab == 'description') {
+                $('[id^="detail-"][id$=-content]').hide();
                 $('#detail-description-content').show();
-                $('#detail-phone-content').hide();
-                $('#detail-maps-content').hide();
-                $('#detail-contact-content').hide();
             }
             else if (tab == 'phone') {
-                $('#detail-description-content').hide();
+                $('[id^="detail-"][id$=-content]').hide();
                 $('#detail-phone-content').show();
-                $('#detail-maps-content').hide();
-                $('#detail-contact-content').hide();
             }
             else if (tab == 'maps') {
-                $('#detail-description-content').hide();
-                $('#detail-phone-content').hide();
+                $('[id^="detail-"][id$=-content]').hide();
                 $('#detail-maps-content').show();
-                $('#detail-contact-content').hide();
             }
             else if (tab == 'contact'){
-                $('#detail-description-content').hide();
-                $('#detail-phone-content').hide();
-                $('#detail-maps-content').hide();
+                $('[id^="detail-"][id$=-content]').hide();
                 $('#detail-contact-content').show();
             }
-            // $('#detail-description-content').hide();
-            // $('#detail-phone-content').hide();
-            // $('#detail-maps-content').hide();
-            // $('#detail-contact-content').hide();
         }
         if ($('#detail-description').hasClass('active')) {
             showDetailTabs('description');

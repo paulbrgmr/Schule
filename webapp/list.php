@@ -14,7 +14,7 @@
             <ul id="schuelerList" data-role="listview" data-filter="true" data-filter-placeholder="Absolventen durchsuchen" data-inset="true">
             </ul>
         </div>
-        <nav id="navbar" data-role="footer" data-id="footernav" data-tap-toggle="true" data-position="fixed">
+        <nav id="navbar">
             <ul>
                 <li>
                     <a href="index.php">

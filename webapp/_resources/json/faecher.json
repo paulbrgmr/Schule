@@ -1,6 +1,14 @@
 {
     "faecher": [
         {
+            "Fachname": "(1)",
+            "Fachbeschreibung": "Fächer im 1. Jahr"
+        },
+        {
+            "Fachname": "(2)",
+            "Fachbeschreibung": "Fächer im 2. Jahr"
+        },
+        {
             "Fachname": "Projektmanagement (1)",
             "Fachbeschreibung": "Projektplanung, Contolling"
         },
@@ -59,14 +67,6 @@
         {
             "Fachname": "Datenverarbeitung Druck (2)",
             "Fachbeschreibung": "Digitale Bilderfassungssysteme, Grafikformate"
-        },
-        {
-            "Fachname": "(1)",
-            "Fachbeschreibung": "Fächer im 1. Jahr"
-        },
-        {
-            "Fachname": "(2)",
-            "Fachbeschreibung": "Fächer im 2. Jahr"
         }
     ],
     "wahlmodule": [
