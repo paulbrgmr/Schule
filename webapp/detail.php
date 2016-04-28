@@ -18,8 +18,6 @@
         <div data-role="content" id="detail-content-wrapper">
             <div id="portrait-wrapper">
                 <div id="portrait-img"></div>
-<!--                 <div id="portrait-border"></div>
-                <div id="portrait-img"></div> -->
             </div>
             <ul id="detail-content-nav">
                 <li id="detail-description" class="active">
@@ -46,9 +44,9 @@
             </div>
             <div id="detail-maps-content">
                 <h4>Wohnort:</h4>
-                <!-- iframe removed, GMaps currently doesn't work -->
-                <!-- <div id="schueler-maps"></div>
-                <div id="gmaps"></div> -->
+                <div id="schueler-maps"></div>
+                <button id="showGMaps" type="button">Auf Google Maps anzeigen</button>
+                <div id="map"></div>
             </div>
             <div id="detail-contact-content">
                 <h4>E-Mail-Adresse:</h4>
@@ -76,10 +74,7 @@
         </nav>
         <script type="text/javascript" src="_resources/js/detail.min.js"></script>
         <!-- GMaps with API KEY -->
-        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmJfTM5F0gNCWQEBd3dt3u0Eg3oDiWKwY&signed_in=true"></script> -->
-
-        <!-- JS GoogleAPI -->
-        <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmJfTM5F0gNCWQEBd3dt3u0Eg3oDiWKwY"></script>
     </div>
 </body>
 </html>

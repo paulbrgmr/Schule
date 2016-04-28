@@ -234,3 +234,17 @@ dl {
         margin-left: 0;
     }
 }
+
+#showGMaps {
+    font-size: 14px;
+    background-color: #fff;
+    text-shadow: none;
+}
+
+#map {
+    width: 100%;
+    height: 0px;
+    &.initialize {
+        height: 300px;
+    }
+}
