@@ -5,12 +5,10 @@ $(function() {
         var schuelerSession = sessionStorage.schueler;
         $.each(data.schueler, function(i, schueler) {
             var schuelerNameClear = schueler.Name.split(' ').join('-');
+            // check if name from schuelerSession is equal to name from json
             if (schuelerSession == schuelerNameClear) {
-                // setting the name as param executes infinite page reload
-                var pathname = window.location.pathname; // Returns path only
-                var schuelerUrl = pathname + '?name=' + schuelerNameClear;
-                // window.location.href = schuelerUrl;
                 $('#schueler-name').text(schueler.Name);
+                // if schueler img exists, show it, else remove img wrapper
                 if (schueler.Bild != '') {
                     $('<img src="' + schueler.Bild + '">').appendTo($('#portrait-img, #portrait-img-bg'));
                 }
@@ -56,6 +54,7 @@ $(function() {
                     + '</p>')
                 .appendTo('#schueler-maps');
 
+                // show maps after click on GMaps Btns
                 $('#showGMaps').on('click', function() {
 
                     $('#map').addClass('initialize');
@@ -102,6 +101,8 @@ $(function() {
                 .appendTo('#schueler-contact');
             }
         });
+
+        // show clicked tab, hide other
         function showDetailTabs(tab) {
             $('#detail-content-nav li').removeClass('active');
             $('#detail-' + tab).addClass('active');

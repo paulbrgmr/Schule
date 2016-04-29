@@ -6,7 +6,6 @@ $(function() {
         $.each(data.faecher, function(i, faecherList) {
             // i = index
             // faecherList = faecherObject
-            // console.log(faecherList.Fachname, faecherList.Fachbeschreibung);
         
             // Faecher Liste
             $('<dl>'
@@ -22,7 +21,6 @@ $(function() {
         $.each(data.wahlmodule, function(i, moduleList) {
             // i = index
             // faecherList = faecherObject
-            // console.log(faecherList.Fachname, faecherList.Fachbeschreibung);
         
             // Faecher Liste
             $('<dl>'
